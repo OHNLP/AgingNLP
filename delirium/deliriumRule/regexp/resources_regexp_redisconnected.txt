@@ -1,0 +1,16 @@
+regex:(not|no|minimally|less|barely|unable to|difficulty|difficult) (\S+\s+){0,3}(describe|response|respond|responding|awake|responsive|communicative|arousable|arouse|following command.?)
+regex:(decreased|reduced|change|fluctuating|altered|loss|change in) (\S+\s+){0,6}(consciousness|conscious|responsiveness)
+regex:increased (\S+\s+){0,3}lethargy
+regex:inability (\S+\s+){0,3}(stay alert|stay awake)
+disconnected
+drowsy
+dizziness
+drowsiness
+lethargic
+lethargy
+incoherent
+somnolent
+conversive
+unresponsive
+unresponsiveness
+catatonic

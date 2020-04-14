@@ -1,0 +1,6 @@
+disorient
+disoriented
+disorientated
+regex:not (\S+\s+){0,3}oriented
+disorientation
+impaired orientation

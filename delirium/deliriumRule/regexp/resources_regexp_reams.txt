@@ -1,0 +1,14 @@
+regex:mental status change.?
+mental has deteriorated
+regex:change.? (\S+\s+){0,5}mental status
+ams
+regex:change.? (\S+\s+){0,5}mentation
+regex:decrease.? (\S+\s+){0,5}mentation
+regex:altered (\S+\s+){0,5}mentation
+difficulty with mentation
+regex:altered (\S+\s+){0,5}mental status
+regex:mental status (\S+\s+){0,3}off
+regex:deteriorating (\S+\s+){0,3}mental status
+regex:mental status (\S+\s+){0,6}issue
+regex:waning (\S+\s+){0,5}mental status
+regex:waxing (\S+\s+){0,5}mental status
