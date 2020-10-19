@@ -28,8 +28,8 @@ information extraction based on patterns, and MedTaggerML for machine learning-b
 #### Original release: https://github.com/OHNLP/MedTagger/releases
 
 1. Download the latest release from https://github.com/OHNLP/TJA/tree/master/nlp_system 
-2. Move the .jar file to either THA_NLP or TKA_NLP
-3. Modify the `INPUTDIR`, `OUTPUTDIR`, and `RULEDIR` variables in `runMedTagger-fit-tja.sh` or `runMedTagger-fit-tka.sh`, as appropriate
+2. Move the .jar file to either Delirium folder
+3. Modify the `INPUTDIR`, `OUTPUTDIR`, and `RULEDIR` variables in `runMedTagger-fit-delirium.sh` or `runMedTagger-fit-delirium.bat`, as appropriate
     - `INPUT_DIR`: full directory path of input folder 
     - `OUTPUT_DIR`: full directory path of output folder
     - `RULES_DIR`: full directory path of 'Rule' folder
@@ -37,7 +37,7 @@ information extraction based on patterns, and MedTaggerML for machine learning-b
 
 ## Running the tests
 ```
-run_medtagger_unix_mac.sh
+runMedTagger-fit-delirium.sh
 ```
 
 ## Built With
