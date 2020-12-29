@@ -36,7 +36,7 @@ information extraction based on patterns, and MedTaggerML for machine learning-b
 
 
 ## Running Hybrid Model
-###Step1
+### Step1
 Train BERT on training data:
 output_dir: directory to save post trained BERT model
 Input training file: training.txt
@@ -45,14 +45,14 @@ delimiter: '|'
 ```
 train()
 ```
-###Step2
+### Step2
 Output prediction results
 output_dir: directory to save post trained BERT model
 test_dir: input test file
 ```
 reload_saved_model()
 ```
-###Step3
+### Step3
 Run MedTagger Summariation Engine
 
 ## CONFIGURATION:
@@ -69,7 +69,5 @@ RULES_DIR: full directory path of 'Hybrid' folder
 runMedTagger-fit-hybrid.sh
 ```
 
-## Built With
 
-* [Maven](https://maven.apache.org/) - Dependency Management
 
