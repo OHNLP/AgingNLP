@@ -1,0 +1,14 @@
+a fall
+recurrent fall
+time of fall
+falls?
+fell
+fallen
+collapsed
+slipped
+tripped
+syncope
+falling
+syncopal (events?|episodes?|spells?)
+found (\S+\s+){0,3}on the ground
+on (\S+\s+){0,3}way down

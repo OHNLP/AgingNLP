@@ -1,0 +1,3 @@
+RULENAME="cm_fall",REGEXP="\b(%reFallLiterature)\b",LOCATION="NA",NORM="FALL_LT"
+RULENAME="cm_fall2",REGEXP="\b(%reFallAnnotation)\b",LOCATION="NA",NORM="FALL_ANN"
+RULENAME="cm_fall3",REGEXP="\b(%reFallSpecific)\b",LOCATION="NA",NORM="FALL_SPC"

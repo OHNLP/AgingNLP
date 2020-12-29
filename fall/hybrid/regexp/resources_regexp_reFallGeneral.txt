@@ -1,0 +1,15 @@
+falls?
+fall.?
+fell
+fallen
+collapsed
+slipped
+tripped
+syncope
+falling
+a fall
+syncopal events
+syncopal episodes
+syncopal spells
+found (\S+\s+){0,3}on the ground
+on (\S+\s+){0,3}way down

@@ -1,0 +1,5 @@
+./context/contextRule.txt
+./norm/resources_norm_normAcuity.txt
+./regexp/resources_regexp_reFallGeneral.txt
+./rules/resources_rules_matchrules.txt
+./used_resources.txt
