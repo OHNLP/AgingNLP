@@ -43,24 +43,24 @@ Input training file: training.txt
 Input data format: 'docid', 'sentence', 'label'
 delimiter: '|'
 ```
-train()
+python bert/main.py -train
 ```
 ### Step2
 Output prediction results
 output_dir: directory to save post trained BERT model
 test_dir: input test file
 ```
-reload_saved_model()
+python bert/main.py -reload
 ```
 ### Step3
 Run MedTagger Summariation Engine
 
-## CONFIGURATION:
+#### CONFIGURATION:
 INPUT_DIR: full directory path of input folder
 OUTPUT_DIR: full directory path of output folder
 RULES_DIR: full directory path of 'Hybrid' folder
 
-## INPUT:
+###### INPUT:
  Input folder: the input folder contains a list of clinical notes 
  Input file: document level .txt file. The naming convention of each report would be unique identifier + documentation date. P.S. one patient may have multiple documents. 
  Input file preprocessing: replace all '/n' to '. '

@@ -26,6 +26,7 @@ import random
 import numpy as np
 import time
 import datetime
+import argparse
 from sklearn.metrics import f1_score, matthews_corrcoef, confusion_matrix
 from transformers import (WEIGHTS_NAME, BertConfig,
                                   BertForSequenceClassification, BertTokenizer,
@@ -531,9 +532,16 @@ def reload_saved_model():
 	print (cm)
 	
 	
-	
 
 if __name__ == '__main__':
- 
-	train()
-	# reload_saved_model()
+	parser = argparse.ArgumentParser(description='BERT classificer')
+	parser.add_argument('-train', action='store_true', default=False, help='train a model')
+	parser.add_argument('-reload', action='store_true', default=False, help='reload saved model')
+
+	args = parser.parse_args()
+ 	if args.train:
+		train()
+	elif args.reload:
+		reload_saved_model()
+
+
