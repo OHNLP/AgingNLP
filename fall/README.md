@@ -1,6 +1,6 @@
-# AgingNLP - Delirium NLP Algorithm
+# AgingNLP - Fall NLP Algorithm
 
-We developed an NLP algorithm to identify patients with delirium from clinical notes.
+We developed an NLP algorithm to identify fall occurrence from clinical notes.
 
 ## Getting Started
 
@@ -28,22 +28,48 @@ information extraction based on patterns, and MedTaggerML for machine learning-b
 #### Original release: https://github.com/OHNLP/MedTagger/releases
 
 1. Download the latest release from https://github.com/OHNLP/TJA/tree/master/nlp_system 
-2. Move the .jar file to either Delirium folder
+2. Move the .jar file to Fall folder
 3. Modify the `INPUTDIR`, `OUTPUTDIR`, and `RULEDIR` variables in `runMedTagger-fit-delirium.sh` or `runMedTagger-fit-delirium.bat`, as appropriate
     - `INPUT_DIR`: full directory path of input folder 
     - `OUTPUT_DIR`: full directory path of output folder
     - `RULES_DIR`: full directory path of 'Rule' folder
 
 
-## Running the tests
+## Running Hybrid Model
+###Step1
+Train BERT on training data:
+output_dir: directory to save post trained BERT model
+Input training file: training.txt
+Input data format: 'docid', 'sentence', 'label'
+delimiter: '|'
 ```
-runMedTagger-fit-delirium.sh
+train()
+```
+###Step2
+Output prediction results
+output_dir: directory to save post trained BERT model
+test_dir: input test file
+```
+reload_saved_model()
+```
+###Step3
+Run MedTagger Summariation Engine
+
+## CONFIGURATION:
+INPUT_DIR: full directory path of input folder
+OUTPUT_DIR: full directory path of output folder
+RULES_DIR: full directory path of 'Hybrid' folder
+
+## INPUT:
+ Input folder: the input folder contains a list of clinical notes 
+ Input file: document level .txt file. The naming convention of each report would be unique identifier + documentation date. P.S. one patient may have multiple documents. 
+ Input file preprocessing: replace all '/n' to '. '
+
+```
+runMedTagger-fit-hybrid.sh
 ```
 
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
-
-## Citation
-Fu S, Lopes GS, Pagali SR, Thorsteinsdottir B, LeBrasseur NK, Wen A, Liu H, Rocca WA, Olson JE, St Sauver J, Sohn S. Ascertainment of delirium status using natural language processing from electronic health records. The Journals of Gerontology: Series A. 2020 Oct 30.
 

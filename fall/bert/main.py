@@ -85,14 +85,8 @@ def rad_parser(line):
 def train():
 	epochs_num = 2
 	# Saving best-practices: if you use defaults names for the model, you can reload it using from_pretrained()
-# 	output_dir = './model_save_epo2_doclevel_10vali_revised_training/'
-
-#   previous best model
-# 	output_dir = './model_save_epo4_doclevel_10vali_revised_training/'	
-
-#   Donna revised the training data
-	output_dir = './model_save_epo2_doclevel_10vali_revised_training5_2/'
-	df = pd.read_csv('../../data/training5.txt', delimiter= '|', header=None, names=['docid', 'sentence', 'label'])
+	output_dir = './post_trained_model/'
+	df = pd.read_csv('../../data/training.txt', delimiter= '|', header=None, names=['docid', 'sentence', 'label'])
 # 	df = df.sample(n=1500, random_state=5)
 # 	print (df)
 	sentences = df.sentence.values
