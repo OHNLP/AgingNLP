@@ -28,7 +28,7 @@ information extraction based on patterns, and MedTaggerML for machine learning-b
 #### Original release: https://github.com/OHNLP/MedTagger/releases
 
 1. Download the latest release from https://github.com/OHNLP/TJA/tree/master/nlp_system 
-2. Move the .jar file to either Delirium folder
+2. Move the .jar file to the Delirium folder
 3. Modify the `INPUTDIR`, `OUTPUTDIR`, and `RULEDIR` variables in `runMedTagger-fit-delirium.sh` or `runMedTagger-fit-delirium.bat`, as appropriate
     - `INPUT_DIR`: full directory path of input folder 
     - `OUTPUT_DIR`: full directory path of output folder
