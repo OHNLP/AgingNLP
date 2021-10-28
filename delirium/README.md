@@ -2,11 +2,38 @@
 
 We developed an NLP algorithm to identify patients with delirium from clinical notes.
 
+## Definition of the NLP-CAM
+
+| A: acute onset and fluctuating course | B: inattention |
+| --- | --- |
+| Do the abnormal behaviors?
+ - Come and go
+ - Fluctuate during the day
+ - Increase/decrease in severity | Does the patient:  - Come and go
+ - Fluctuate during the day
+ - Increase/decrease in severity |
+
+
+| Delirium Concepts | Example terms | Primary indication of CAM | Require additional context | Potential indication of delirium status |
+| --- | --- |
+| Agit | agitated, agitation | CAM D | Yes | No |
+| AMS  | mental status change | CAM D |  | No |
+| Confusion  | confusion, confused | CAM C or CAM D | Yes | No |
+| Delirium | delirious, delirium | Delirium equivalent |  | Yes |
+| Disconnected  | disconnected | CAM C |  | No |
+| Disorganized_thinking  | jumped from topic to topic, paranoid thoughts | CAM C |  | No |
+| Disorient  | impaired orientation | CAM C |  | No |
+| Drowsy | drowsy | CAM D |  | No |
+| Encephalopathy  | encephalopathy, leukoencephalopathy,  | CAM D |  | Yes |
+| Fluctuation | fluctuation, night and day different | CAM A |  | No |
+| Hallucination  | hallucination, seeing things | CAM C  |  | No |
+| Inattention  | inattentive, not paying attention | CAM B |  | No |
+| Reorient  | reorientation, reorientated | CAM C | Yes | No |
+
 ## Getting Started
 
 Download MedTaggerIE:
 https://github.com/OHNLP/MedTagger
-
 
 
 ### Prerequisites
@@ -43,6 +70,7 @@ runMedTagger-fit-delirium.sh
 ## Built With
 
 * [Maven](https://maven.apache.org/) - Dependency Management
+
 
 ## Citation
 Fu S, Lopes GS, Pagali SR, Thorsteinsdottir B, LeBrasseur NK, Wen A, Liu H, Rocca WA, Olson JE, St Sauver J, Sohn S. Ascertainment of delirium status using natural language processing from electronic health records. The Journals of Gerontology: Series A. 2020 Oct 30.
