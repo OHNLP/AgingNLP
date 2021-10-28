@@ -2,18 +2,17 @@
 
 We developed an NLP algorithm to identify patients with delirium from clinical notes.
 
-## Definition of the NLP-CAM
-
+## Definition of the NLP-CAM and NLP-mCAM
 | A: acute onset and fluctuating course | B: inattention |
 | --- | --- |
-| Do the abnormal behaviors?
- - Come and go
- - Fluctuate during the day
- - Increase/decrease in severity | Does the patient:  - Come and go
- - Fluctuate during the day
- - Increase/decrease in severity |
+| Do the abnormal behaviors: 1) Come and go, 2) Fluctuate during the day, 3) Increase/decrease in severity | Does the patient: 1) Have difficulty focusing attention, 2) Become easily distracted, 3) Have difficulty keeping track of what is said |
+| C: disorganized thinking | D: altered level of consciousness |
+| Is the patient’s thinking: 1) Disorganized, 2) Incoherent | What is the patient’s level of consciousness: 1) Alert (normal), 2) Vigilant (hyper-alert), 3) Lethargic (drowsy but easily roused), 4) Stuporous (difficult to rouse), 5) Comatose (unrousable) |
+| Original CAM: | Modified CAM: |
+| Definitive: A and B and (C or D) | Definitive: At least 3 unique CAM criteria; Possible: Any 2 criteria and does not meet the definitive criteria as above |
 
 
+## Definition of the CAM-related Clinical Concepts
 | Delirium Concepts | Example terms | Primary indication of CAM | Require additional context | Potential indication of delirium status |
 | --- | --- |
 | Agit | agitated, agitation | CAM D | Yes | No |
