@@ -3,9 +3,7 @@ regex:(decreased|reduced|change|fluctuating|altered|loss|change in) (\S+\s+){0,6
 regex:increased (\S+\s+){0,3}lethargy
 regex:inability (\S+\s+){0,3}(stay alert|stay awake)
 disconnected
-drowsy
 dizziness
-drowsiness
 lethargic
 lethargy
 incoherent

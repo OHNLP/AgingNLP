@@ -4,6 +4,7 @@
 ./__MACOSX/regexp/._resources_regexp_rehall.txt
 ./__MACOSX/rules/._resources_rules_matchrules.txt
 ./context/contextRule.txt
+./posthoc_settings.json
 ./regexp/resources_regexp_reagit.txt
 ./regexp/resources_regexp_reams.txt
 ./regexp/resources_regexp_recam.txt
@@ -12,10 +13,10 @@
 ./regexp/resources_regexp_redisconnected.txt
 ./regexp/resources_regexp_redisorganizedthinking.txt
 ./regexp/resources_regexp_redisorient.txt
+./regexp/resources_regexp_redrowsy.txt
 ./regexp/resources_regexp_reencephalopathy.txt
 ./regexp/resources_regexp_refluctu.txt
 ./regexp/resources_regexp_rehall.txt
 ./regexp/resources_regexp_reinattention.txt
 ./regexp/resources_regexp_rereorient.txt
 ./rules/resources_rules_matchrules.txt
-./used_resources.txt
