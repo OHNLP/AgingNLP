@@ -15,7 +15,7 @@ We developed an NLP algorithm to identify patients with delirium from clinical n
 
 
 ## Definition of the CAM-related Clinical Concepts
-| Delirium Concepts | Example terms | Primary indication of CAM | Require additional context | Potential indication of delirium status |
+| Delirium Concepts | Example Terms | Primary Indication of CAM | Require Additional Context | Potential Direct Indication of Delirium Status |
 | --- | --- | --- | --- | --- |
 | Agit | agitated, agitation | CAM D | Yes | No |
 | AMS  | mental status change | CAM D |  | No |
