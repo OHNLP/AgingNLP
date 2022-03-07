@@ -1,6 +1,7 @@
 # AgingNLP - Delirium NLP Algorithm
 
-We developed an NLP algorithm to identify patients with delirium from clinical notes.
+We developed two NLP algorithms (NLP-CAM and NLP-M-CAM) to identify patients with delirium from clinical notes.
+
 
 ## Definition of the NLP-CAM and NLP-mCAM
 | A: acute onset and fluctuating course | B: inattention |
@@ -37,16 +38,14 @@ We developed an NLP algorithm to identify patients with delirium from clinical n
 Java 1.8
 
 #### NLP framework MedTaggerIE
-MedTagger contains a suite of programs that the Mayo Clinic NLP program has developed in 2013.
-It includes three major components: MedTagger for indexing based on dictionaries, MedTaggerIE for
-information extraction based on patterns, and MedTaggerML for machine learning-based named entity recognition.
+MedTagger contains a suite of programs that the Mayo Clinic NLP program has developed in 2013. It includes three major components: MedTagger for indexing based on dictionaries, MedTaggerIE for information extraction based on patterns, and MedTaggerML for machine learning-based named entity recognition.
 
-Download MedTaggerIE:
+### Download
 #### Original release: https://github.com/OHNLP/MedTagger/releases
 #### Source code:https://github.com/OHNLP/MedTagger
 
 
-### Installing 
+### Install
 A step by step installation instructions can be accessed through:
 https://vimeo.com/392331446
 
@@ -56,17 +55,17 @@ https://vimeo.com/392331446
     - `OUTPUT_DIR`: full directory path of output folder
     - `RULES_DIR`: full directory path of 'Rule' folder
 
-
-## Running the tests
+### Run
 ```
 runMedTagger-fit-delirium.sh
 ```
 
-## Built With
-* [Maven](https://maven.apache.org/) - Dependency Management
+### Refine
+Due to institutional-specific heterogeneity, we recommend 1) conducting local evaluation, 2) refining the keywords, 3) implementing a section detection algorithm based on the structure of clinical notes. Additional information the NLP deployment and evaluation process can be found at: https://github.com/OHNLP/annotation-best-practices
 
 
 
-## Citation
+## Reference
 Fu S, Lopes GS, Pagali SR, Thorsteinsdottir B, LeBrasseur NK, Wen A, Liu H, Rocca WA, Olson JE, St Sauver J, Sohn S. Ascertainment of delirium status using natural language processing from electronic health records. The Journals of Gerontology: Series A. 2020 Oct 30.
+
 
