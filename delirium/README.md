@@ -61,7 +61,7 @@ runMedTagger-fit-delirium.sh
 ```
 
 ### Refine
-Due to institutional-specific heterogeneity, we recommend 1) conducting local evaluation, 2) refining the keywords, 3) implementing a section detection algorithm based on the structure of clinical notes. Additional information the NLP deployment and evaluation process can be found at: https://github.com/OHNLP/annotation-best-practices
+Due to the institutional-specific heterogeneity, after deplying the algorithm, we recommend 1) conducting local evaluation through manual chart review, 2) refining the keywords, 3) implementing a section detection algorithm based on the structure of clinical notes. Additional information the NLP deployment and evaluation process can be found at: https://github.com/OHNLP/annotation-best-practices
 
 
 
