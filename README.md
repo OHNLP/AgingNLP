@@ -1,1 +1,3 @@
 # AgingNLP
+
+AgingNLP aims to develop aging-related NLP resources including NLP algorithms, knowledge bases, taxonomies, and lexicons for supporting the development and evaluation of various NLP applications. This is part of the collaboration effort between the Rochester Epidemiology Project and the Mayo NLP team. All related NLP resources can be accessed under the OHNLP consortium - aiming to create an interoperable, scalable, and usable NLP ecosystem.
