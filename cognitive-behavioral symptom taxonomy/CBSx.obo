@@ -1,0 +1,2445 @@
+[Term]
+id: CBSx:1
+name: All
+comment: Root of all terms in the CBSx lexicon.
+xref: TBD
+
+[Term]
+id: CBSx:4
+name: "Behavioral symptoms, neuropsychiatric symptoms, or behavioral disturbances, behavioral impairment "
+def: "Behavioral symptoms, neuropsychiatric symptoms, or behavioral disturbances, behavioral impairment "
+xref: HPO:HP:0000708
+xref: MSH:D001526
+xref: UMLS:C0004941
+synonym: "Behavioral symptoms" EXACT []
+synonym: "Symptoms, Behavioral" EXACT []
+is_a: CBSx:1
+
+[Term]
+id: CBSx:3
+name: Psychomotor symptoms
+def: "Psychomotor symptoms"
+xref: UMLS:C0679464
+is_a: CBSx:1
+
+[Term]
+id: CBSx:5
+name: "Impact on life (referring to consequences, incidents, events)"
+def: "Impact on life (referring to consequences, incidents, events)"
+xref: UMLS:C3476057
+is_a: CBSx:1
+
+[Term]
+id: CBSx:2
+name: Cognitive symptoms
+def: "Cognitive symptoms"
+xref: UMLS:C1392787
+is_a: CBSx:1
+
+[Term]
+id: CBSx:16
+name: Apraxia
+def: "Apraxia"
+xref: HPO:HP:0002186
+xref: MSH:D001072
+xref: SNOMEDCT_US:250058008
+xref: UMLS:C0003635
+synonym: "Apraxias" EXACT []
+synonym: "Apraxias" EXACT []
+synonym: "[D]Apraxia (situation)" EXACT []
+is_a: CBSx:3
+
+[Term]
+id: CBSx:14
+name: Language issues
+def: "Language issues"
+xref: UMLS:TBD
+is_a: CBSx:2
+
+[Term]
+id: CBSx:12
+name: Memory impairment 
+def: "Memory impairment "
+xref: HPO:HP:0002354
+xref: MSH:D008569
+xref: SNOMEDCT_US:268792003
+xref: UMLS:C0233794
+synonym: "Memory impairment" EXACT []
+synonym: "Deficit, Memory" EXACT []
+synonym: "Memory problem" EXACT []
+is_a: CBSx:2
+
+[Term]
+id: CBSx:20
+name: Disrupted biological routine
+def: "Disrupted biological routine"
+xref: UMLS:TBD
+is_a: CBSx:4
+
+[Term]
+id: CBSx:17
+name: Ataxia
+def: "Ataxia"
+xref: HPO:HP:0010867
+xref: MSH:D001259
+xref: SNOMEDCT_US:20262006
+xref: UMLS:C0004134
+synonym: "Dyssynergia" EXACT []
+synonym: "Dyssynergia" EXACT []
+synonym: "Ataxia [D]" EXACT []
+is_a: CBSx:3
+
+[Term]
+id: CBSx:22
+name: Difficulty with instrumental activities
+def: "Difficulty with instrumental activities"
+xref: UMLS:C4715793
+is_a: CBSx:5
+
+[Term]
+id: CBSx:11
+name: Reduced consciousness or focus
+def: "Reduced consciousness or focus"
+xref: UMLS:C3280889
+is_a: CBSx:2
+
+[Term]
+id: CBSx:18
+name: Change in personality
+def: "Change in personality"
+xref: HPO:HP:0000751
+xref: SNOMEDCT_US:192073007
+xref: UMLS:C0240735
+synonym: "Personality changes" EXACT []
+synonym: "Change in personality" EXACT []
+is_a: CBSx:4
+
+[Term]
+id: CBSx:21
+name: Difficulty with basic activities
+def: "Difficulty with basic activities"
+xref: UMLS:C4715792
+is_a: CBSx:5
+
+[Term]
+id: CBSx:19
+name: Mental stress or distortion
+def: "Mental stress or distortion"
+xref: UMLS:TBD
+is_a: CBSx:4
+
+[Term]
+id: CBSx:13
+name: Perceptual disturbance
+def: "Perceptual disturbance"
+xref: SNOMEDCT_US:7453008
+xref: UMLS:C0233746
+synonym: "Disturbance of perception, function" EXACT []
+is_a: CBSx:2
+
+[Term]
+id: CBSx:15
+name: Problem with thinking and reasoning
+def: "Problem with thinking and reasoning"
+xref: UMLS:C0237273
+is_a: CBSx:2
+
+[Term]
+id: CBSx:71
+name: Aggressiveness
+def: "Aggressiveness"
+xref: HPO:HP:0006919
+xref: MSH:D000374
+xref: SNOMEDCT_US:61372001
+xref: UMLS:C0001807
+synonym: "Aggressiveness" EXACT []
+synonym: "Aggression" EXACT []
+synonym: "Aggressive behavior" EXACT []
+is_a: CBSx:18
+
+[Term]
+id: CBSx:69
+name: Dissociative identity
+def: "Dissociative identity"
+xref: MSH:D009105
+xref: SNOMEDCT_US:192428007
+xref: UMLS:C0026773
+synonym: "Identity Disorder, Multiple" EXACT []
+synonym: "[X]Multiple personality" EXACT []
+is_a: CBSx:18
+
+[Term]
+id: CBSx:50
+name: Agrammatism
+def: "Agrammatism"
+xref: SNOMEDCT_US:40852003
+xref: UMLS:C0242186
+synonym: "Agrammatica" EXACT []
+is_a: CBSx:14
+
+[Term]
+id: CBSx:92
+name: Difficulty with preparing food
+def: "Difficulty with preparing food"
+xref: SNOMEDCT_US:286457005
+xref: UMLS:C0564297
+synonym: "Difficulty preparing food for eating (finding)" EXACT []
+is_a: CBSx:22
+
+[Term]
+id: CBSx:68
+name: Anosognosia
+def: "Anosognosia"
+xref: MSH:D000377
+xref: SNOMEDCT_US:276248007
+xref: UMLS:C0234507
+synonym: "Anosognosias" EXACT []
+synonym: "Anosognosia" EXACT []
+is_a: CBSx:18
+
+[Term]
+id: CBSx:58
+name: Cannot infer abstract similarities or differences
+def: "Cannot infer abstract similarities or differences"
+xref: UMLS:TBD
+is_a: CBSx:15
+
+[Term]
+id: CBSx:44
+name: False perception 
+def: "False perception "
+xref: SNOMEDCT_US:225453006
+xref: UMLS:C0558072
+synonym: "Sensory deception" EXACT []
+is_a: CBSx:13
+
+[Term]
+id: CBSx:34
+name: Fluctuations in consciousness
+def: "Fluctuations in consciousness"
+xref: HPO:HP:0007159
+xref: UMLS:C1851959
+synonym: "Fluctuations in consciousness" EXACT []
+is_a: CBSx:11
+
+[Term]
+id: CBSx:80
+name: Sleep disturbance
+def: "Sleep disturbance"
+xref: HPO:HP:0002360
+xref: SNOMEDCT_US:206746001
+xref: UMLS:C0037317
+synonym: "Sleep disturbances" EXACT []
+synonym: "[D]Sleep disturbance, unspecified (situation)" EXACT []
+is_a: CBSx:20
+
+[Term]
+id: CBSx:77
+name: "Anxiety, nervousness, worry, apprehension, feeling tense, jittery, general emotional distress"
+def: "Anxiety, nervousness, worry, apprehension, feeling tense, jittery, general emotional distress"
+xref: HPO:HP:0000739
+xref: MSH:D001007
+xref: SNOMEDCT_US:38237000
+xref: UMLS:C0003467
+synonym: "Anxiety" EXACT []
+synonym: "Anxiety" EXACT []
+synonym: "Anxiousness (& symptom) (finding)" EXACT []
+is_a: CBSx:19
+
+[Term]
+id: CBSx:53
+name: Anarthria
+def: "Anarthria"
+xref: HPO:HP:0002425
+xref: SNOMEDCT_US:48257004
+xref: UMLS:C0234517
+synonym: "Loss of articulate speech" EXACT []
+synonym: "Anarthria (finding)" EXACT []
+is_a: CBSx:14
+
+[Term]
+id: CBSx:93
+name: Difficulty with housework
+def: "Difficulty with housework"
+xref: SNOMEDCT_US:129031009
+xref: UMLS:C1290950
+synonym: "Housework dependent (finding)" EXACT []
+is_a: CBSx:22
+
+[Term]
+id: CBSx:82
+name: Difficulty with dressing oneself
+def: "Difficulty with dressing oneself"
+xref: UMLS:C2183412
+is_a: CBSx:21
+
+[Term]
+id: CBSx:31
+name: Inattention
+def: "Inattention"
+xref: SNOMEDCT_US:22058002
+xref: UMLS:C0424101
+synonym: "Inattention" EXACT []
+is_a: CBSx:11
+
+[Term]
+id: CBSx:48
+name: Dysgraphia
+def: "Dysgraphia"
+xref: HPO:HP:0010526
+xref: MSH:D000381
+xref: SNOMEDCT_US:88278002
+xref: UMLS:C0234144
+synonym: "Dysgraphia" EXACT []
+synonym: "Dysgraphias" EXACT []
+synonym: "Dysgraphia" EXACT []
+is_a: CBSx:14
+
+[Term]
+id: CBSx:34
+name: Stupor
+def: "Stupor"
+xref: MSH:D053608
+xref: SNOMEDCT_US:158121007
+xref: UMLS:C0085628
+synonym: "Stupor" EXACT []
+synonym: "Mental status, stupor" EXACT []
+is_a: CBSx:11
+
+[Term]
+id: CBSx:32
+name: Lethargy
+def: "Lethargy"
+xref: HPO:HP:0001254
+xref: MSH:D053609
+xref: SNOMEDCT_US:52663000
+xref: UMLS:C0023380
+synonym: "Lethargy" EXACT []
+synonym: "Lethargy" EXACT []
+synonym: "Lethargy (finding)" EXACT []
+is_a: CBSx:11
+
+[Term]
+id: CBSx:94
+name: Difficulty with healthcare tasks
+def: "Difficulty with healthcare tasks"
+xref: UMLS:TBD
+is_a: CBSx:22
+
+[Term]
+id: CBSx:45
+name: Disturbed sensory perception
+def: "Disturbed sensory perception"
+xref: SNOMEDCT_US:130985008
+xref: UMLS:C0150075
+synonym: "Disturbed sensory perception (specify: visual, auditory,kinaesthetic, gustatory, tactile, olfactory)" EXACT []
+is_a: CBSx:13
+
+[Term]
+id: CBSx:36
+name: Loss of consciousness
+def: "Loss of consciousness"
+xref: HPO:HP:0007185
+xref: MSH:D014474
+xref: SNOMEDCT_US:158125003
+xref: UMLS:C0041657
+synonym: "Loss of consciousness" EXACT []
+synonym: "Consciousness, Loss of" EXACT []
+synonym: "Loss of consciousness" EXACT []
+is_a: CBSx:11
+
+[Term]
+id: CBSx:97
+name: Difficulty with socializing and recreation
+def: "Difficulty with socializing and recreation"
+xref: UMLS:TBD
+is_a: CBSx:22
+
+[Term]
+id: CBSx:70
+name: "Noncompliance, uncooperativeness"
+def: "Noncompliance, uncooperativeness"
+xref: SNOMEDCT_US:392754001
+xref: UMLS:C0424350
+synonym: "Uncooperative behaviour" EXACT []
+is_a: CBSx:18
+
+[Term]
+id: CBSx:60
+name: Eyelid apraxia
+def: "Eyelid apraxia"
+xref: HPO:HP:0000658
+xref: SNOMEDCT_US:423142006
+xref: UMLS:C1142448
+synonym: "Difficulty opening the eyelids" EXACT []
+synonym: "Apraxia of eyelid" EXACT []
+is_a: CBSx:16
+
+[Term]
+id: CBSx:84
+name: Difficulty with feeding oneself
+def: "Difficulty with feeding oneself"
+xref: UMLS:C2183415
+is_a: CBSx:21
+
+[Term]
+id: CBSx:51
+name: Echolalia
+def: "Echolalia"
+xref: HPO:HP:0010529
+xref: MSH:D004454
+xref: SNOMEDCT_US:64712007
+xref: UMLS:C0013528
+synonym: "Echologia" EXACT []
+synonym: "Echo Speech" EXACT []
+synonym: "Echolalia" EXACT []
+is_a: CBSx:14
+
+[Term]
+id: CBSx:38
+name: Short term memory impairment
+def: "Short term memory impairment"
+xref: SNOMEDCT_US:89051002
+xref: UMLS:C0701811
+synonym: "Short term memory loss" EXACT []
+is_a: CBSx:12
+
+[Term]
+id: CBSx:65
+name: Ideomotor apraxia 
+def: "Ideomotor apraxia "
+xref: MSH:D020240
+xref: SNOMEDCT_US:334621009
+xref: UMLS:C0234523
+synonym: "Apraxia, Ideomotor" EXACT []
+synonym: "Ideomotor dyspraxia" EXACT []
+is_a: CBSx:16
+
+[Term]
+id: CBSx:85
+name: Difficulty with cleaning oneself
+def: "Difficulty with cleaning oneself"
+xref: UMLS:C2183458
+is_a: CBSx:21
+
+[Term]
+id: CBSx:79
+name: "Delusion, false belief"
+def: "Delusion, false belief"
+xref: HPO:HP:0000746
+xref: MSH:D003702
+xref: SNOMEDCT_US:162323009
+xref: UMLS:C0011253
+synonym: "Delusions" EXACT []
+synonym: "Delusions" EXACT []
+synonym: "Delusions" EXACT []
+is_a: CBSx:19
+
+[Term]
+id: CBSx:96
+name: Difficulty at employment or work
+def: "Difficulty at employment or work"
+xref: UMLS:C2130180
+is_a: CBSx:22
+
+[Term]
+id: CBSx:62
+name: Oral apraxia
+def: "Oral apraxia"
+xref: MSH:D001072
+xref: SNOMEDCT_US:229695000
+xref: UMLS:C0454608
+synonym: "Oral Dyspraxias" EXACT []
+synonym: "Oral dyspraxia (disorder)" EXACT []
+is_a: CBSx:16
+
+[Term]
+id: CBSx:95
+name: Difficulty in education
+def: "Difficulty in education"
+xref: UMLS:TBD
+is_a: CBSx:22
+
+[Term]
+id: CBSx:86
+name: Difficulty with continence
+def: "Difficulty with continence"
+xref: UMLS:C2135867
+is_a: CBSx:21
+
+[Term]
+id: CBSx:75
+name: Disinhibition
+def: "Disinhibition"
+xref: HPO:HP:0000734
+xref: SNOMEDCT_US:247977003
+xref: UMLS:C0424296
+synonym: "Disinhibition" EXACT []
+synonym: "Social disinhibition" EXACT []
+is_a: CBSx:18
+
+[Term]
+id: CBSx:66
+name: Ideational/conceptual apraxia
+def: "Ideational/conceptual apraxia"
+xref: MSH:D001072
+xref: SNOMEDCT_US:66397001
+xref: UMLS:C0234526
+synonym: "Apraxia, Ideational" EXACT []
+synonym: "Sensory apraxia (finding)" EXACT []
+is_a: CBSx:16
+
+[Term]
+id: CBSx:37
+name: Brain fog
+def: "Brain fog"
+xref: MSH:D005222
+xref: UMLS:C0015676
+synonym: "Fatigue, Mental" EXACT []
+is_a: CBSx:11
+
+[Term]
+id: CBSx:59
+name: Impaired executive function
+def: "Impaired executive function"
+xref: HPO:HP:0033051
+xref: SNOMEDCT_US:736317001
+xref: UMLS:C4544271
+synonym: "Impaired executive functioning" EXACT []
+synonym: "Impaired executive functioning (finding)" EXACT []
+is_a: CBSx:15
+
+[Term]
+id: CBSx:89
+name: Difficulty with transportation
+def: "Difficulty with transportation"
+xref: UMLS:TBD
+is_a: CBSx:22
+
+[Term]
+id: CBSx:87
+name: Difficulty with toileting
+def: "Difficulty with toileting"
+xref: UMLS:C4062635
+is_a: CBSx:21
+
+[Term]
+id: CBSx:90
+name: Difficulty with communication
+def: "Difficulty with communication"
+xref: SNOMEDCT_US:288579009
+xref: UMLS:C0566003
+synonym: "Difficulty communicating (finding)" EXACT []
+is_a: CBSx:22
+
+[Term]
+id: CBSx:67
+name: Involuntary movements
+def: "Involuntary movements"
+xref: HPO:HP:0004305
+xref: MSH:D020820
+xref: SNOMEDCT_US:267078001
+xref: UMLS:C0427086
+synonym: "Involuntary muscle contractions" EXACT []
+synonym: "Movement, Involuntary" EXACT []
+synonym: "Involuntary movemt.symptom NOS (finding)" EXACT []
+is_a: CBSx:17
+
+[Term]
+id: CBSx:81
+name: "Oral/dietary changes, appetite disturbance, modifications in eating habits"
+def: "Oral/dietary changes, appetite disturbance, modifications in eating habits"
+xref: UMLS:C0855228
+is_a: CBSx:20
+
+[Term]
+id: CBSx:64
+name: Limb apraxia
+def: "Limb apraxia"
+xref: HPO:HP:0030217
+xref: UMLS:C4022574
+synonym: "Limb apraxia" EXACT []
+is_a: CBSx:16
+
+[Term]
+id: CBSx:41
+name: Paramnesia
+def: "Paramnesia"
+xref: SNOMEDCT_US:32541007
+xref: UMLS:C0233797
+synonym: "Paramnesia" EXACT []
+is_a: CBSx:12
+
+[Term]
+id: CBSx:49
+name: Dyslexia
+def: "Dyslexia"
+xref: HPO:HP:0010522
+xref: MSH:D004410
+xref: SNOMEDCT_US:52824009
+xref: UMLS:C0476254
+synonym: "Dyslexia" EXACT []
+synonym: "Word Blindnesses" EXACT []
+synonym: "Dyslexia" EXACT []
+is_a: CBSx:14
+
+[Term]
+id: CBSx:61
+name: Oculomotor apraxia
+def: "Oculomotor apraxia"
+xref: HPO:HP:0000657
+xref: MSH:C537423
+xref: SNOMEDCT_US:193662007
+xref: UMLS:C3489733
+synonym: "Oculomotor apraxia" EXACT []
+synonym: "Ocular Motor Apraxia" EXACT []
+synonym: "Oculomotor apraxia" EXACT []
+is_a: CBSx:16
+
+[Term]
+id: CBSx:91
+name: Difficulty with economic life
+def: "Difficulty with economic life"
+xref: SNOMEDCT_US:300686005
+xref: UMLS:C0577404
+synonym: "Difficulty managing personal financial activities (finding)" EXACT []
+is_a: CBSx:22
+
+[Term]
+id: CBSx:33
+name: Decreased vigilance
+def: "Decreased vigilance"
+xref: HPO:HP:0032044
+xref: UMLS:C0920048
+synonym: "Decreased vigilance" EXACT []
+is_a: CBSx:11
+
+[Term]
+id: CBSx:38
+name: Long term memory impairment
+def: "Long term memory impairment"
+xref: SNOMEDCT_US:247588002
+xref: UMLS:C0701810
+synonym: "Poor long-term memory" EXACT []
+is_a: CBSx:12
+
+[Term]
+id: CBSx:63
+name: Verbal apraxia
+def: "Verbal apraxia"
+xref: HPO:HP:0011098
+xref: MSH:D001072
+xref: SNOMEDCT_US:361276003
+xref: UMLS:C0349391
+synonym: "Verbal dyspraxia" EXACT []
+synonym: "Verbal Dyspraxia" EXACT []
+synonym: "Verbal apraxia (disorder)" EXACT []
+is_a: CBSx:16
+
+[Term]
+id: CBSx:74
+name: "Emotional lability, impaired emotional control"
+def: "Emotional lability, impaired emotional control"
+xref: SNOMEDCT_US:88729006
+xref: UMLS:C0233472
+synonym: "Labile affect" EXACT []
+is_a: CBSx:18
+
+[Term]
+id: CBSx:83
+name: Difficulty with transferring oneself
+def: "Difficulty with transferring oneself"
+xref: SNOMEDCT_US:714884000
+xref: UMLS:C4075018
+synonym: "Difficulty transferring location (finding)" EXACT []
+is_a: CBSx:21
+
+[Term]
+id: CBSx:39
+name: Transient global amnesia
+def: "Transient global amnesia"
+xref: HPO:HP:0010534
+xref: MSH:D020236
+xref: SNOMEDCT_US:230736007
+xref: UMLS:C0338591
+synonym: "Transient global amnesia" EXACT []
+synonym: "TGA (Transient Global Amnesia)" EXACT []
+synonym: "TGA - Transient global amnesia" EXACT []
+is_a: CBSx:12
+
+[Term]
+id: CBSx:57
+name: Cannot perform basic calculations
+def: "Cannot perform basic calculations"
+xref: UMLS:TBD
+is_a: CBSx:15
+
+[Term]
+id: CBSx:56
+name: Tachyphrenia
+def: "Tachyphrenia"
+xref: SNOMEDCT_US:285303006
+xref: UMLS:C0554978
+synonym: "Racing thoughts" EXACT []
+is_a: CBSx:15
+
+[Term]
+id: CBSx:76
+name: "Depression, depressed"
+def: "Depression, depressed"
+xref: MSH:D003863
+xref: SNOMEDCT_US:192372006
+xref: UMLS:C0011570
+synonym: "Depression" EXACT []
+synonym: "Depression NOS (disorder)" EXACT []
+is_a: CBSx:19
+
+[Term]
+id: CBSx:78
+name: "Obsessive-compulsive behavior, perseverant behavior"
+def: "Obsessive-compulsive behavior, perseverant behavior"
+xref: HPO:HP:0000722
+xref: MSH:D003192
+xref: SNOMEDCT_US:12479006
+xref: UMLS:C0600104
+synonym: "Obsessive compulsive behavior" EXACT []
+synonym: "Behavior, Compulsive" EXACT []
+synonym: "Compulsive behavior (finding)" EXACT []
+is_a: CBSx:19
+
+[Term]
+id: CBSx:47
+name: Dysnomia
+def: "Dysnomia"
+xref: HPO:HP:0030784
+xref: MSH:D000849
+xref: SNOMEDCT_US:10325006
+xref: UMLS:C0003113
+synonym: "Anomia" EXACT []
+synonym: "Anomia" EXACT []
+synonym: "Anomia" EXACT []
+is_a: CBSx:14
+
+[Term]
+id: CBSx:40
+name: Transient epileptic amnesia 
+def: "Transient epileptic amnesia "
+xref: SNOMEDCT_US:395689002
+xref: UMLS:C1273059
+synonym: "Transient epileptic amnesia (finding)" EXACT []
+is_a: CBSx:12
+
+[Term]
+id: CBSx:88
+name: Difficulty with time and schedule
+def: "Difficulty with time and schedule"
+xref: SNOMEDCT_US:285622006
+xref: UMLS:C0563499
+synonym: "Difficulty managing time" EXACT []
+is_a: CBSx:22
+
+[Term]
+id: CBSx:98
+name: Difficulty with interpersonal relationships
+def: "Difficulty with interpersonal relationships"
+xref: SNOMEDCT_US:160822004
+xref: UMLS:C0425168
+synonym: "Relational problem" EXACT []
+is_a: CBSx:22
+
+[Term]
+id: CBSx:72
+name: Demanding/critical behaviors
+def: "Demanding/critical behaviors"
+xref: SNOMEDCT_US:284503003
+xref: UMLS:C0562447
+synonym: "Demanding behavior (finding)" EXACT []
+is_a: CBSx:18
+
+[Term]
+id: CBSx:54
+name: Confusion
+def: "Confusion"
+xref: HPO:HP:0001289
+xref: MSH:D003221
+xref: SNOMEDCT_US:286933003
+xref: UMLS:C0009676
+synonym: "Mental disorientation" EXACT []
+synonym: "Confusional State" EXACT []
+synonym: "Confusional state" EXACT []
+is_a: CBSx:15
+
+[Term]
+id: CBSx:99
+name: Difficulty with assisting others (as a caregiver to a spouse or family member)
+def: "Difficulty with assisting others (as a caregiver to a spouse or family member)"
+xref: UMLS:TBD
+is_a: CBSx:22
+
+[Term]
+id: CBSx:55
+name: Bradyphrenia
+def: "Bradyphrenia"
+xref: HPO:HP:0031843
+xref: SNOMEDCT_US:285242009
+xref: UMLS:C0554976
+synonym: "Bradyphrenia" EXACT []
+synonym: "Bradyphrenia (finding)" EXACT []
+is_a: CBSx:15
+
+[Term]
+id: CBSx:73
+name: "Apathy, apathetic"
+def: "Apathy, apathetic"
+xref: HPO:HP:0000741
+xref: MSH:D057565
+xref: SNOMEDCT_US:225651002
+xref: UMLS:C0085632
+synonym: "Lack of feeling, emotion, interest" EXACT []
+synonym: "Apathy" EXACT []
+synonym: "Listless mood" EXACT []
+is_a: CBSx:18
+
+[Term]
+id: CBSx:42
+name: Retrospective falsification
+def: "Retrospective falsification"
+xref: SNOMEDCT_US:26581009
+xref: UMLS:C0233799
+synonym: "Retrospective falsification" EXACT []
+is_a: CBSx:12
+
+[Term]
+id: CBSx:43
+name: Hyperresponsive to stimuli
+def: "Hyperresponsive to stimuli"
+xref: UMLS:C4761238
+is_a: CBSx:13
+
+[Term]
+id: CBSx:46
+name: Dysphasia
+def: "Dysphasia"
+xref: HPO:HP:0002357
+xref: MSH:D001037
+xref: SNOMEDCT_US:206980008
+xref: UMLS:C0973461
+synonym: "Dysphasia" EXACT []
+synonym: "Dysphasia" EXACT []
+synonym: "[D]Dysphasia" EXACT []
+is_a: CBSx:14
+
+[Term]
+id: CBSx:52
+name: Dysarthria
+def: "Dysarthria"
+xref: HPO:HP:0001260
+xref: MSH:D004401
+xref: SNOMEDCT_US:206979005
+xref: UMLS:C0013362
+synonym: "Dysarthric speech" EXACT []
+synonym: "Dysarthoses" EXACT []
+synonym: "[D]Dysarthria" EXACT []
+is_a: CBSx:14
+
+[Term]
+id: CBSx:282
+name: Difficulty with using public transportation
+def: "Difficulty with using public transportation"
+xref: SNOMEDCT_US:300625006
+xref: UMLS:C0577346
+synonym: "Difficulty using public transport" EXACT []
+is_a: CBSx:89
+
+[Term]
+id: CBSx:269
+name: Difficulty with drinking
+def: "Difficulty with drinking"
+xref: SNOMEDCT_US:288857007
+xref: UMLS:C0566279
+synonym: "Difficulty drinking (finding)" EXACT []
+is_a: CBSx:84
+
+[Term]
+id: CBSx:240
+name: Impulsiveness (taking foolhardy actions)
+def: "Impulsiveness (taking foolhardy actions)"
+xref: HPO:HP:0100710
+xref: MSH:D007175
+xref: UMLS:C0021125
+synonym: "Impulsive" EXACT []
+synonym: "Impulsivities" EXACT []
+is_a: CBSx:74
+
+[Term]
+id: CBSx:256
+name: "Grandiose, unreal thoughts about oneself"
+def: "Grandiose, unreal thoughts about oneself"
+xref: SNOMEDCT_US:247783009
+xref: UMLS:C0233681
+synonym: "Delusion of grandeur (finding)" EXACT []
+is_a: CBSx:79
+
+[Term]
+id: CBSx:236
+name: "Self-centeredness (loss of empathy, loss of concern for others)"
+def: "Self-centeredness (loss of empathy, loss of concern for others)"
+xref: MSH:D004989
+xref: UMLS:C0013713
+synonym: "Egoism" EXACT []
+is_a: CBSx:73
+
+[Term]
+id: CBSx:292
+name: Difficulty with washing food
+def: "Difficulty with washing food"
+xref: SNOMEDCT_US:286463001
+xref: UMLS:C0564303
+synonym: "Difficulty washing food" EXACT []
+is_a: CBSx:92
+
+[Term]
+id: CBSx:241
+name: Agitation 
+def: "Agitation "
+xref: HPO:HP:0000713
+xref: SNOMEDCT_US:162195000
+xref: UMLS:C0085631
+synonym: "Agitation" EXACT []
+synonym: "Feeling agitated (finding)" EXACT []
+is_a: CBSx:74
+
+[Term]
+id: CBSx:220
+name: Slurred speech
+def: "Slurred speech"
+xref: HPO:HP:0001350
+xref: SNOMEDCT_US:33207006
+xref: UMLS:C0234518
+synonym: "Slurred speech" EXACT []
+synonym: "[D]Slurred speech" EXACT []
+is_a: CBSx:52
+
+[Term]
+id: CBSx:274
+name: Difficulty caring for nails
+def: "Difficulty caring for nails"
+xref: UMLS:C2135671
+is_a: CBSx:85
+
+[Term]
+id: CBSx:278
+name: "Getting lost, wandering off"
+def: "Getting lost, wandering off"
+xref: SNOMEDCT_US:247664009
+xref: UMLS:C0424015
+synonym: "Getting lost (finding)" EXACT []
+is_a: CBSx:89
+
+[Term]
+id: CBSx:273
+name: Difficulty with grooming
+def: "Difficulty with grooming"
+xref: SNOMEDCT_US:284860009
+xref: UMLS:C0562804
+synonym: "Difficulty performing grooming activity (finding)" EXACT []
+is_a: CBSx:85
+
+[Term]
+id: CBSx:250
+name: Following strict rituals
+def: "Following strict rituals"
+xref: SNOMEDCT_US:67431008
+xref: UMLS:C0233622
+synonym: "Compulsive ritualistic behaviour" EXACT []
+is_a: CBSx:78
+
+[Term]
+id: CBSx:196
+name: Difficulty with taking care of pet
+def: "Difficulty with taking care of pet"
+xref: SNOMEDCT_US:300818001
+xref: UMLS:C0577531
+synonym: "Difficulty caring for pet (finding)" EXACT []
+is_a: CBSx:93
+
+[Term]
+id: CBSx:279
+name: Accidental falls
+def: "Accidental falls"
+xref: MSH:D000058
+xref: SNOMEDCT_US:157904001
+xref: UMLS:C0000921
+synonym: "Fall, Accidental" EXACT []
+synonym: "Accidental falls NOS (event)" EXACT []
+is_a: CBSx:89
+
+[Term]
+id: CBSx:214
+name: Relationship issues with strangers
+def: "Relationship issues with strangers"
+xref: UMLS:TBD
+is_a: CBSx:98
+
+[Term]
+id: CBSx:197
+name: Difficulty with household repairs
+def: "Difficulty with household repairs"
+xref: UMLS:TBD
+is_a: CBSx:93
+
+[Term]
+id: CBSx:264
+name: "Gluttony, increased/excessive appetite, food craving"
+def: "Gluttony, increased/excessive appetite, food craving"
+xref: HPO:HP:0002591
+xref: MSH:D006963
+xref: SNOMEDCT_US:158291007
+xref: UMLS:C0020505
+synonym: "Hyperphagia" EXACT []
+synonym: "Hyperphagia" EXACT []
+synonym: "Overeating" EXACT []
+is_a: CBSx:81
+
+[Term]
+id: CBSx:212
+name: Relationship issues within family
+def: "Relationship issues within family"
+xref: SNOMEDCT_US:266950007
+xref: UMLS:C0577730
+synonym: "Stress at home" EXACT []
+is_a: CBSx:98
+
+[Term]
+id: CBSx:228
+name: Disorganized thinking 
+def: "Disorganized thinking "
+xref: SNOMEDCT_US:736319003
+xref: UMLS:C1855263
+synonym: "Disorganized thinking (finding)" EXACT []
+is_a: CBSx:54
+
+[Term]
+id: CBSx:195
+name: Difficulty with housecleaning
+def: "Difficulty with housecleaning"
+xref: UMLS:C2187973
+is_a: CBSx:93
+
+[Term]
+id: CBSx:223
+name: Palilalia
+def: "Palilalia"
+xref: HPO:HP:0031814
+xref: SNOMEDCT_US:25107009
+xref: UMLS:C0392185
+synonym: "Palilalia" EXACT []
+synonym: "Verbal repetition" EXACT []
+is_a: CBSx:52
+
+[Term]
+id: CBSx:281
+name: Difficulty with maintaining vehicles
+def: "Difficulty with maintaining vehicles"
+xref: UMLS:TBD
+is_a: CBSx:89
+
+[Term]
+id: CBSx:270
+name: Difficulty with showering or bathing
+def: "Difficulty with showering or bathing"
+xref: SNOMEDCT_US:284796001
+xref: UMLS:C0562757
+synonym: "Difficulty showering self" EXACT []
+is_a: CBSx:85
+
+[Term]
+id: CBSx:202
+name: Difficulty with doing physical exercises
+def: "Difficulty with doing physical exercises"
+xref: SNOMEDCT_US:705021008
+xref: UMLS:C3874451
+synonym: "Difficulty managing exercise regime" EXACT []
+is_a: CBSx:94
+
+[Term]
+id: CBSx:235
+name: Pleas for attention
+def: "Pleas for attention"
+xref: SNOMEDCT_US:248021000
+xref: UMLS:C0474408
+synonym: "Attention seeking behavior" EXACT []
+is_a: CBSx:72
+
+[Term]
+id: CBSx:234
+name: Hypercritical or intolerant
+def: "Hypercritical or intolerant"
+xref: UMLS:C2047431
+is_a: CBSx:72
+
+[Term]
+id: CBSx:280
+name: Difficulty with driving
+def: "Difficulty with driving"
+xref: SNOMEDCT_US:300638003
+xref: UMLS:C0577358
+synonym: "Difficulty driving a car (finding)" EXACT []
+is_a: CBSx:89
+
+[Term]
+id: CBSx:263
+name: Difficulty awakening in the morning
+def: "Difficulty awakening in the morning"
+xref: UMLS:C4065477
+is_a: CBSx:80
+
+[Term]
+id: CBSx:238
+name: Diminished initiative 
+def: "Diminished initiative "
+xref: HPO:HP:0000745
+xref: SNOMEDCT_US:277521002
+xref: UMLS:C0456814
+synonym: "Lack of initiative" EXACT []
+synonym: "Lack of motivation" EXACT []
+is_a: CBSx:73
+
+[Term]
+id: CBSx:286
+name: Losing personal properties frequently
+def: "Losing personal properties frequently"
+xref: UMLS:TBD
+is_a: CBSx:91
+
+[Term]
+id: CBSx:251
+name: Hoarding
+def: "Hoarding"
+xref: MSH:D060845
+xref: SNOMEDCT_US:248025009
+xref: UMLS:C0424337
+synonym: "Hoarding" EXACT []
+synonym: "Hoarding" EXACT []
+is_a: CBSx:78
+
+[Term]
+id: CBSx:262
+name: Awakening early (before 5 AM)
+def: "Awakening early (before 5 AM)"
+xref: HPO:HP:0031356
+xref: MSH:D007319
+xref: SNOMEDCT_US:393575002
+xref: UMLS:C0541798
+synonym: "Terminal insomnia" EXACT []
+synonym: "Awakening, Early" EXACT []
+synonym: "Wakes and cannot sleep again (finding)" EXACT []
+is_a: CBSx:80
+
+[Term]
+id: CBSx:266
+name: Difficulty with changing body position
+def: "Difficulty with changing body position"
+xref: SNOMEDCT_US:303387009
+xref: UMLS:C0580861
+synonym: "Difficulty changing position" EXACT []
+is_a: CBSx:83
+
+[Term]
+id: CBSx:252
+name: Gambling
+def: "Gambling"
+xref: MSH:D005715
+xref: SNOMEDCT_US:105523009
+xref: UMLS:C0016995
+synonym: "Gambling" EXACT []
+synonym: "Gambling" EXACT []
+is_a: CBSx:78
+
+[Term]
+id: CBSx:210
+name: Reflex hallucination 
+def: "Reflex hallucination "
+xref: MSH:D006212
+xref: SNOMEDCT_US:285799000
+xref: UMLS:C0563661
+synonym: "Hallucinations, Reflex" EXACT []
+synonym: "Reflex hallucinations (finding)" EXACT []
+is_a: CBSx:44
+
+[Term]
+id: CBSx:275
+name: Easily losing track of time
+def: "Easily losing track of time"
+xref: UMLS:TBD
+is_a: CBSx:88
+
+[Term]
+id: CBSx:229
+name: Delirium
+def: "Delirium"
+xref: HPO:HP:0031258
+xref: MSH:D003693
+xref: SNOMEDCT_US:2776000
+xref: UMLS:C0011206
+synonym: "Delirium" EXACT []
+synonym: "Delirium" EXACT []
+synonym: "Delirium, NOS" EXACT []
+is_a: CBSx:54
+
+[Term]
+id: CBSx:276
+name: Difficulty with making or keeping appointments
+def: "Difficulty with making or keeping appointments"
+xref: UMLS:TBD
+is_a: CBSx:88
+
+[Term]
+id: CBSx:227
+name: Disorientation
+def: "Disorientation"
+xref: MSH:D003221
+xref: SNOMEDCT_US:62476001
+xref: UMLS:C0233407
+synonym: "Disorientation" EXACT []
+synonym: "[X]Disorientation, unspecified (finding)" EXACT []
+is_a: CBSx:54
+
+[Term]
+id: CBSx:260
+name: Vivid dreams
+def: "Vivid dreams"
+xref: SNOMEDCT_US:247953009
+xref: UMLS:C0344320
+synonym: "Vivid dream" EXACT []
+is_a: CBSx:80
+
+[Term]
+id: CBSx:208
+name: Difficulty with volunteering or community services
+def: "Difficulty with volunteering or community services"
+xref: SNOMEDCT_US:737353005
+xref: UMLS:C4545072
+synonym: "Difficulty with community participation (finding)" EXACT []
+is_a: CBSx:96
+
+[Term]
+id: CBSx:283
+name: Forgetting names of acquaintances
+def: "Forgetting names of acquaintances"
+xref: UMLS:C2702698
+is_a: CBSx:90
+
+[Term]
+id: CBSx:255
+name: Preoccupied with specific bodily system
+def: "Preoccupied with specific bodily system"
+xref: UMLS:TBD
+is_a: CBSx:78
+
+[Term]
+id: CBSx:199
+name: Difficulty with yardwork
+def: "Difficulty with yardwork"
+xref: UMLS:TBD
+is_a: CBSx:93
+
+[Term]
+id: CBSx:198
+name: Difficulty with using/maintaining tools or appliances
+def: "Difficulty with using/maintaining tools or appliances"
+xref: SNOMEDCT_US:285856002
+xref: UMLS:C0563721
+synonym: "Unable to use domestic equipment (finding)" EXACT []
+is_a: CBSx:93
+
+[Term]
+id: CBSx:243
+name: Inappropriate behavior
+def: "Inappropriate behavior"
+xref: HPO:HP:0000719
+xref: SNOMEDCT_US:112082005
+xref: UMLS:C0233522
+synonym: "Inappropriate behavior" EXACT []
+synonym: "Inappropriate behavior (finding)" EXACT []
+is_a: CBSx:75
+
+[Term]
+id: CBSx:289
+name: Difficulty with business affairs
+def: "Difficulty with business affairs"
+xref: UMLS:TBD
+is_a: CBSx:91
+
+[Term]
+id: CBSx:202
+name: Retrograde memory impairment 
+def: "Retrograde memory impairment "
+xref: MSH:D000648
+xref: SNOMEDCT_US:206784007
+xref: UMLS:C0002624
+synonym: "Retrograde Amnesia" EXACT []
+synonym: "[D]Amnesia (retrograde) (situation)" EXACT []
+is_a: CBSx:38
+
+[Term]
+id: CBSx:222
+name: Stuttering
+def: "Stuttering"
+xref: HPO:HP:0025268
+xref: MSH:D013342
+xref: SNOMEDCT_US:416163003
+xref: UMLS:C0038506
+synonym: "Stuttering" EXACT []
+synonym: "Stuttering" EXACT []
+synonym: "Stuttering (finding)" EXACT []
+is_a: CBSx:52
+
+[Term]
+id: CBSx:271
+name: Difficulty with oral hygiene
+def: "Difficulty with oral hygiene"
+xref: SNOMEDCT_US:289128002
+xref: UMLS:C0566536
+synonym: "Difficulty performing mouthcare activities (finding)" EXACT []
+is_a: CBSx:85
+
+[Term]
+id: CBSx:219
+name: Alexia
+def: "Alexia"
+xref: HPO:HP:0010523
+xref: MSH:D004410
+xref: SNOMEDCT_US:206985003
+xref: UMLS:C0002018
+synonym: "Text blindness" EXACT []
+synonym: "Alexias" EXACT []
+synonym: "Aphemesthaesia" EXACT []
+is_a: CBSx:49
+
+[Term]
+id: CBSx:209
+name: Olfactory hallucination 
+def: "Olfactory hallucination "
+xref: MSH:D006212
+xref: SNOMEDCT_US:158130004
+xref: UMLS:C0233765
+synonym: "Olfactory Hallucinations" EXACT []
+synonym: "Olfactory hallucination" EXACT []
+is_a: CBSx:44
+
+[Term]
+id: CBSx:208
+name: Gustatory hallucination
+def: "Gustatory hallucination"
+xref: MSH:D006212
+xref: SNOMEDCT_US:206720000
+xref: UMLS:C0233766
+synonym: "Hallucinations, Gustatory" EXACT []
+synonym: "[D]Hallucinations, gustatory (context-dependent category)" EXACT []
+is_a: CBSx:44
+
+[Term]
+id: CBSx:207
+name: Tactile hallucination
+def: "Tactile hallucination"
+xref: MSH:D006212
+xref: SNOMEDCT_US:206722008
+xref: UMLS:C0233767
+synonym: "Hallucinations, Tactile" EXACT []
+synonym: "Tactile hallucination" EXACT []
+is_a: CBSx:44
+
+[Term]
+id: CBSx:200
+name: Difficulty with using medications
+def: "Difficulty with using medications"
+xref: SNOMEDCT_US:450741000124107
+xref: UMLS:C4081515
+synonym: "Patient has difficulty administering medication (finding)" EXACT []
+is_a: CBSx:94
+
+[Term]
+id: CBSx:293
+name: Difficulty with cutting food
+def: "Difficulty with cutting food"
+xref: SNOMEDCT_US:289078003
+xref: UMLS:C0566489
+synonym: "Difficulty cutting up food" EXACT []
+is_a: CBSx:92
+
+[Term]
+id: CBSx:249
+name: Panic attack
+def: "Panic attack"
+xref: HPO:HP:0025269
+xref: MSH:D016584
+xref: SNOMEDCT_US:268752000
+xref: UMLS:C0086769
+synonym: "Panic attack" EXACT []
+synonym: "Attacks, Panic" EXACT []
+synonym: "Panic attack" EXACT []
+is_a: CBSx:77
+
+[Term]
+id: CBSx:213
+name: Anosmia
+def: "Anosmia"
+xref: HPO:HP:0000458
+xref: MSH:D000086582
+xref: SNOMEDCT_US:162254006
+xref: UMLS:C0003126
+synonym: "Anosmia" EXACT []
+synonym: "Anosmia" EXACT []
+synonym: "Absent smell" EXACT []
+is_a: CBSx:45
+
+[Term]
+id: CBSx:233
+name: "Impatient, cranky"
+def: "Impatient, cranky"
+xref: UMLS:C3176494
+is_a: CBSx:72
+
+[Term]
+id: CBSx:204
+name: Difficulty with learning
+def: "Difficulty with learning"
+xref: SNOMEDCT_US:161129001
+xref: UMLS:C0424939
+synonym: "LD - Learning difficulties" EXACT []
+is_a: CBSx:95
+
+[Term]
+id: CBSx:201
+name: Anterograde memory impairment
+def: "Anterograde memory impairment"
+xref: MSH:D020324
+xref: SNOMEDCT_US:88822006
+xref: UMLS:C0233795
+synonym: "Amnesias, Anterograde" EXACT []
+synonym: "[D]Anterograde amnesia (situation)" EXACT []
+is_a: CBSx:38
+
+[Term]
+id: CBSx:205
+name: Difficulty with school life
+def: "Difficulty with school life"
+xref: SNOMEDCT_US:161113009
+xref: UMLS:C0580094
+synonym: "School problem" EXACT []
+is_a: CBSx:95
+
+[Term]
+id: CBSx:206
+name: Difficulty with performing job duties
+def: "Difficulty with performing job duties"
+xref: SNOMEDCT_US:737352000
+xref: UMLS:C4545071
+synonym: "Difficulty with performing work activities (finding)" EXACT []
+is_a: CBSx:96
+
+[Term]
+id: CBSx:225
+name: Scanning speech
+def: "Scanning speech"
+xref: MSH:D004401
+xref: UMLS:C0240952
+synonym: "Scanning Dysarthria" EXACT []
+is_a: CBSx:52
+
+[Term]
+id: CBSx:248
+name: Feelings of imminent doom or death for own wrongdoing
+def: "Feelings of imminent doom or death for own wrongdoing"
+xref: SNOMEDCT_US:712759008
+xref: UMLS:C2958630
+synonym: "Sense of impending doom (finding)" EXACT []
+is_a: CBSx:76
+
+[Term]
+id: CBSx:291
+name: Difficulty with making beverage
+def: "Difficulty with making beverage"
+xref: UMLS:TBD
+is_a: CBSx:92
+
+[Term]
+id: CBSx:267
+name: Difficulty with moving/walking around
+def: "Difficulty with moving/walking around"
+xref: SNOMEDCT_US:714884000
+xref: UMLS:C4075018
+synonym: "Difficulty transferring location (finding)" EXACT []
+is_a: CBSx:83
+
+[Term]
+id: CBSx:214
+name: Ageusia
+def: "Ageusia"
+xref: HPO:HP:0041051
+xref: MSH:D000370
+xref: SNOMEDCT_US:36955009
+xref: UMLS:C2364111
+synonym: "Impaired taste sensation" EXACT []
+synonym: "Ageusia" EXACT []
+synonym: "Taste loss symptom" EXACT []
+is_a: CBSx:45
+
+[Term]
+id: CBSx:253
+name: Cravings
+def: "Cravings"
+xref: MSH:D066249
+xref: ICF:b1303
+xref: UMLS:C0870371
+synonym: "Craving" EXACT []
+synonym: "Craving" EXACT []
+is_a: CBSx:78
+
+[Term]
+id: CBSx:245
+name: "Loss of personal hygiene, poor personal hygiene"
+def: "Loss of personal hygiene, poor personal hygiene"
+xref: UMLS:C1611708
+is_a: CBSx:75
+
+[Term]
+id: CBSx:254
+name: "Stubbornness, rigidity"
+def: "Stubbornness, rigidity"
+xref: UMLS:C1696114
+is_a: CBSx:78
+
+[Term]
+id: CBSx:287
+name: Difficulty/mistakes with handling money and personal finance
+def: "Difficulty/mistakes with handling money and personal finance"
+xref: SNOMEDCT_US:300692004
+xref: UMLS:C0577410
+synonym: "Difficulty handling money (finding)" EXACT []
+is_a: CBSx:91
+
+[Term]
+id: CBSx:277
+name: Relying heavily on notes/calendars or other reminders
+def: "Relying heavily on notes/calendars or other reminders"
+xref: UMLS:TBD
+is_a: CBSx:88
+
+[Term]
+id: CBSx:203
+name: Difficulty with arranging/attending medical appointments
+def: "Difficulty with arranging/attending medical appointments"
+xref: UMLS:TBD
+is_a: CBSx:94
+
+[Term]
+id: CBSx:218
+name: Agraphia
+def: "Agraphia"
+xref: MSH:D000381
+xref: SNOMEDCT_US:206990000
+xref: UMLS:C0001825
+synonym: "Agraphias" EXACT []
+synonym: "[D]Agraphia" EXACT []
+is_a: CBSx:48
+
+[Term]
+id: CBSx:231
+name: Gait disturbance
+def: "Gait disturbance"
+xref: UMLS:C4551915
+is_a: CBSx:64
+
+[Term]
+id: CBSx:239
+name: Lack of emotional response
+def: "Lack of emotional response"
+xref: SNOMEDCT_US:33314005
+xref: UMLS:C0233464
+synonym: "Hypoaffectivity (finding)" EXACT []
+is_a: CBSx:73
+
+[Term]
+id: CBSx:246
+name: Social maladjustment
+def: "Social maladjustment"
+xref: SNOMEDCT_US:123165004
+xref: UMLS:C0037423
+synonym: "Interpersonal relationship problem without mental disorder" EXACT []
+is_a: CBSx:75
+
+[Term]
+id: CBSx:215
+name: Agnosia
+def: "Agnosia"
+xref: HPO:HP:0010524
+xref: MSH:D000377
+xref: SNOMEDCT_US:158320000
+xref: UMLS:C0001816
+synonym: "Agnosia" EXACT []
+synonym: "Agnosia" EXACT []
+synonym: "[D]Agnosia (situation)" EXACT []
+is_a: CBSx:45
+
+[Term]
+id: CBSx:213
+name: Relationship issues with acquaintances or peers
+def: "Relationship issues with acquaintances or peers"
+xref: SNOMEDCT_US:52381000119109
+xref: UMLS:C3532917
+synonym: "Peer problems (finding)" EXACT []
+is_a: CBSx:98
+
+[Term]
+id: CBSx:290
+name: Difficulty with heating water
+def: "Difficulty with heating water"
+xref: UMLS:TBD
+is_a: CBSx:92
+
+[Term]
+id: CBSx:217
+name: Aphasia
+def: "Aphasia"
+xref: HPO:HP:0002381
+xref: MSH:D001037
+xref: SNOMEDCT_US:87486003
+xref: UMLS:C0003537
+synonym: "Losing words" EXACT []
+synonym: "Logasthenias" EXACT []
+synonym: "Aphasic disturbance" EXACT []
+is_a: CBSx:46
+
+[Term]
+id: CBSx:244
+name: Inappropriate dress or disrobing/exposing
+def: "Inappropriate dress or disrobing/exposing"
+xref: SNOMEDCT_US:21507006
+xref: UMLS:C0424310
+synonym: "Disinhibited dress (finding)" EXACT []
+is_a: CBSx:75
+
+[Term]
+id: CBSx:209
+name: Difficulty with keeping track of current events
+def: "Difficulty with keeping track of current events"
+xref: UMLS:TBD
+is_a: CBSx:97
+
+[Term]
+id: CBSx:257
+name: Paranoia
+def: "Paranoia"
+xref: HPO:HP:0011999
+xref: MSH:D010259
+xref: SNOMEDCT_US:192330005
+xref: UMLS:C1456784
+synonym: "Paranoia" EXACT []
+synonym: "Disorders, Paranoid" EXACT []
+synonym: "[X]Paranoid psychosis" EXACT []
+is_a: CBSx:79
+
+[Term]
+id: CBSx:211
+name: Difficulty with pursuing hobbies
+def: "Difficulty with pursuing hobbies"
+xref: UMLS:TBD
+is_a: CBSx:97
+
+[Term]
+id: CBSx:237
+name: Social withdrawal
+def: "Social withdrawal"
+xref: SNOMEDCT_US:105411000
+xref: UMLS:C0424095
+synonym: "Social withdrawal" EXACT []
+is_a: CBSx:73
+
+[Term]
+id: CBSx:288
+name: Difficulty with shopping (including online shopping)
+def: "Difficulty with shopping (including online shopping)"
+xref: SNOMEDCT_US:300723007
+xref: UMLS:C0577439
+synonym: "Difficulty performing shopping activities" EXACT []
+is_a: CBSx:91
+
+[Term]
+id: CBSx:268
+name: Difficulty with eating
+def: "Difficulty with eating"
+xref: SNOMEDCT_US:110292000
+xref: UMLS:C0518085
+synonym: "Difficulty eating (finding)" EXACT []
+is_a: CBSx:84
+
+[Term]
+id: CBSx:230
+name: Hand apraxia 
+def: "Hand apraxia "
+xref: HPO:HP:0032588
+xref: UMLS:C5397612
+synonym: "Lack of purposeful hand use" EXACT []
+is_a: CBSx:64
+
+[Term]
+id: CBSx:203
+name: Repetitive behavior
+def: "Repetitive behavior"
+xref: SNOMEDCT_US:423884000
+xref: UMLS:C1827547
+synonym: "Repetitious behavior (finding)" EXACT []
+is_a: CBSx:38
+
+[Term]
+id: CBSx:261
+name: Night wakening
+def: "Night wakening"
+xref: SNOMEDCT_US:162203006
+xref: UMLS:C0393761
+synonym: "Interrupted sleep" EXACT []
+is_a: CBSx:80
+
+[Term]
+id: CBSx:194
+name: Difficulty with laundry
+def: "Difficulty with laundry"
+xref: SNOMEDCT_US:424533000
+xref: UMLS:C1827560
+synonym: "Difficulty performing laundry activities (finding)" EXACT []
+is_a: CBSx:93
+
+[Term]
+id: CBSx:211
+name: Hypnagogic hallucination 
+def: "Hypnagogic hallucination "
+xref: HPO:HP:0002519
+xref: MSH:D006212
+xref: SNOMEDCT_US:44780000
+xref: UMLS:C0233773
+synonym: "Hypnagogic hallucinations" EXACT []
+synonym: "Hypnagogic Hallucinations" EXACT []
+synonym: "Hypnagogic hallucinations (finding)" EXACT []
+is_a: CBSx:44
+
+[Term]
+id: CBSx:205
+name: Visual hallucination 
+def: "Visual hallucination "
+xref: HPO:HP:0002367
+xref: MSH:D006212
+xref: SNOMEDCT_US:267724006
+xref: UMLS:C0233763
+synonym: "Visual hallucinations" EXACT []
+synonym: "Hallucinations, Visual" EXACT []
+synonym: "[D]Visual hallucinations (context-dependent category)" EXACT []
+is_a: CBSx:44
+
+[Term]
+id: CBSx:210
+name: Difficulty with participating in social events
+def: "Difficulty with participating in social events"
+xref: SNOMEDCT_US:870710001
+xref: UMLS:C5397091
+synonym: "Difficulty participating in community social life (finding)" EXACT []
+is_a: CBSx:97
+
+[Term]
+id: CBSx:242
+name: Irritable mood
+def: "Irritable mood"
+xref: MSH:D007508
+xref: SNOMEDCT_US:139478006
+xref: UMLS:C0022107
+synonym: "Moods, Irritable" EXACT []
+synonym: "Irritable (& symptom)" EXACT []
+is_a: CBSx:74
+
+[Term]
+id: CBSx:206
+name: Auditory hallucination
+def: "Auditory hallucination"
+xref: HPO:HP:0008765
+xref: MSH:D006212
+xref: SNOMEDCT_US:158128001
+xref: UMLS:C0233762
+synonym: "Hallucinations of sound" EXACT []
+synonym: "Hallucination, Auditory" EXACT []
+synonym: "Auditory hallucinations" EXACT []
+is_a: CBSx:44
+
+[Term]
+id: CBSx:284
+name: Difficulty with conversations
+def: "Difficulty with conversations"
+xref: SNOMEDCT_US:288638001
+xref: UMLS:C0566063
+synonym: "Difficulty making conversation (finding)" EXACT []
+is_a: CBSx:90
+
+[Term]
+id: CBSx:259
+name: "Reversal of sleep pattern (sleep by day, awake by night)"
+def: "Reversal of sleep pattern (sleep by day, awake by night)"
+xref: SNOMEDCT_US:158155005
+xref: UMLS:C0338497
+synonym: "Reversed sleep-wake cycle" EXACT []
+is_a: CBSx:80
+
+[Term]
+id: CBSx:272
+name: Difficulty caring for hair
+def: "Difficulty caring for hair"
+xref: SNOMEDCT_US:289135005
+xref: UMLS:C0566544
+synonym: "Difficulty performing hair care activities" EXACT []
+is_a: CBSx:85
+
+[Term]
+id: CBSx:216
+name: Paraphasia
+def: "Paraphasia"
+xref: SNOMEDCT_US:53096005
+xref: UMLS:C0234488
+synonym: "Paraphasia (finding)" EXACT []
+is_a: CBSx:46
+
+[Term]
+id: CBSx:221
+name: Halting speech
+def: "Halting speech"
+xref: UMLS:C2018081
+is_a: CBSx:52
+
+[Term]
+id: CBSx:247
+name: Inappropriate affects
+def: "Inappropriate affects"
+xref: SNOMEDCT_US:28290006
+xref: UMLS:C0233467
+synonym: "Inappropriate affect" EXACT []
+is_a: CBSx:75
+
+[Term]
+id: CBSx:232
+name: Tremors
+def: "Tremors"
+xref: HPO:HP:0001337
+xref: MSH:D014202
+xref: SNOMEDCT_US:206806000
+xref: ICF:b7651
+xref: UMLS:C0040822
+synonym: "Tremors" EXACT []
+synonym: "Tremors" EXACT []
+synonym: "Tremor [D] (finding)" EXACT []
+synonym: "Tremor" EXACT []
+is_a: CBSx:67
+
+[Term]
+id: CBSx:204
+name: Misplacing things
+def: "Misplacing things"
+xref: UMLS:C2702624
+is_a: CBSx:38
+
+[Term]
+id: CBSx:212
+name: Hypnopompic hallucination
+def: "Hypnopompic hallucination"
+xref: HPO:HP:0006896
+xref: MSH:D006212
+xref: SNOMEDCT_US:69690008
+xref: UMLS:C0424082
+synonym: "Hypnopompic hallucinations" EXACT []
+synonym: "Hypnapompic Hallucinations" EXACT []
+synonym: "Hypnapompic hallucinations (finding)" EXACT []
+is_a: CBSx:44
+
+[Term]
+id: CBSx:265
+name: Decreased/poor appetite
+def: "Decreased/poor appetite"
+xref: HPO:HP:0004396
+xref: SNOMEDCT_US:64379006
+xref: UMLS:C0232462
+synonym: "Decreased appetite" EXACT []
+synonym: "Decreased food appetite" EXACT []
+is_a: CBSx:81
+
+[Term]
+id: CBSx:201
+name: Difficulty with using or maintaining assistive devices
+def: "Difficulty with using or maintaining assistive devices"
+xref: UMLS:TBD
+is_a: CBSx:94
+
+[Term]
+id: CBSx:285
+name: Difficulty making phone calls
+def: "Difficulty making phone calls"
+xref: UMLS:TBD
+is_a: CBSx:90
+
+[Term]
+id: CBSx:224
+name: Effortful speech
+def: "Effortful speech"
+xref: UMLS:TBD
+is_a: CBSx:52
+
+[Term]
+id: CBSx:207
+name: Difficulty with seeking a job
+def: "Difficulty with seeking a job"
+xref: SNOMEDCT_US:301723001
+xref: UMLS:C0578406
+synonym: "Difficulty carrying out job application activities" EXACT []
+is_a: CBSx:96
+
+[Term]
+id: CBSx:258
+name: "Insomnia, trouble going to sleep, sleeplessness"
+def: "Insomnia, trouble going to sleep, sleeplessness"
+xref: HPO:HP:0100785
+xref: MSH:D007319
+xref: SNOMEDCT_US:268775007
+xref: UMLS:C0917801
+synonym: "Difficulty staying or falling asleep" EXACT []
+synonym: "INSOMNIA DIS" EXACT []
+synonym: "[D]Insomnia" EXACT []
+is_a: CBSx:80
+
+[Term]
+id: CBSx:226
+name: Tachylalia
+def: "Tachylalia"
+xref: HPO:HP:0031937
+xref: UMLS:C4732764
+synonym: "Tachylogia" EXACT []
+is_a: CBSx:52
+
+[Term]
+id: CBSx:444
+name: Difficulty with preparing tax
+def: "Difficulty with preparing tax"
+xref: UMLS:TBD
+is_a: CBSx:287
+
+[Term]
+id: CBSx:411
+name: Time agnosia
+def: "Time agnosia"
+xref: MSH:D000377
+xref: SNOMEDCT_US:86819001
+xref: UMLS:C0234506
+synonym: "Agnosia, Time" EXACT []
+synonym: "Time agnosia" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:409
+name: Gustatory agnosia 
+def: "Gustatory agnosia "
+xref: MSH:D000377
+xref: SNOMEDCT_US:57948007
+xref: UMLS:C0234504
+synonym: "Gustatory Agnosia" EXACT []
+synonym: "Gustatory agnosia" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:424
+name: Catastrophic reaction
+def: "Catastrophic reaction"
+xref: UMLS:C4761151
+is_a: CBSx:242
+
+[Term]
+id: CBSx:403
+name: Prosopagnosia
+def: "Prosopagnosia"
+xref: HPO:HP:0010528
+xref: MSH:D020238
+xref: SNOMEDCT_US:18358003
+xref: UMLS:C0234512
+synonym: "Face blindness" EXACT []
+synonym: "Facial Recognition Agnosia" EXACT []
+synonym: "Prosopagnosia (finding)" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:435
+name: Suspiciousness
+def: "Suspiciousness"
+xref: SNOMEDCT_US:22927000
+xref: UMLS:C0233519
+synonym: "Suspiciousness" EXACT []
+is_a: CBSx:257
+
+[Term]
+id: CBSx:414
+name: Autotopagnosia
+def: "Autotopagnosia"
+xref: MSH:D000377
+xref: SNOMEDCT_US:24500009
+xref: UMLS:C0234511
+synonym: "Body Image Agnosia" EXACT []
+synonym: "Body-image agnosia" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:433
+name: Hypersexuality
+def: "Hypersexuality"
+xref: HPO:HP:0030214
+xref: SNOMEDCT_US:73744004
+xref: UMLS:C0312420
+synonym: "Hypersexuality" EXACT []
+synonym: "Hypersexuality" EXACT []
+is_a: CBSx:255
+
+[Term]
+id: CBSx:410
+name: Tactile agnosia
+def: "Tactile agnosia"
+xref: HPO:HP:0010527
+xref: MSH:D000377
+xref: SNOMEDCT_US:25094008
+xref: UMLS:C0234505
+synonym: "Astereognosis" EXACT []
+synonym: "Agnosia, Tactile" EXACT []
+synonym: "Tactile agnosia" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:441
+name: Difficulty with calculating money
+def: "Difficulty with calculating money"
+xref: UMLS:TBD
+is_a: CBSx:287
+
+[Term]
+id: CBSx:457
+name: Relationship issues with neighbors
+def: "Relationship issues with neighbors"
+xref: SNOMEDCT_US:138364000
+xref: UMLS:C0474449
+synonym: "Problem with neighbors (finding)" EXACT []
+is_a: CBSx:213
+
+[Term]
+id: CBSx:415
+name: Finger agnosia 
+def: "Finger agnosia "
+xref: HPO:HP:0010525
+xref: MSH:D000377
+xref: SNOMEDCT_US:3449007
+xref: UMLS:C0234509
+synonym: "Finger agnosia" EXACT []
+synonym: "Finger Agnosia" EXACT []
+synonym: "Finger agnosia (finding)" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:417
+name: Allographic agraphia
+def: "Allographic agraphia"
+xref: UMLS:TBD
+is_a: CBSx:218
+
+[Term]
+id: CBSx:432
+name: Hyperorality
+def: "Hyperorality"
+xref: HPO:HP:0000710
+xref: UMLS:C1838320
+synonym: "Hyperoralia" EXACT []
+is_a: CBSx:255
+
+[Term]
+id: CBSx:458
+name: Relationship issues with classmates
+def: "Relationship issues with classmates"
+xref: UMLS:TBD
+is_a: CBSx:213
+
+[Term]
+id: CBSx:439
+name: Hiding things
+def: "Hiding things"
+xref: UMLS:TBD
+is_a: CBSx:257
+
+[Term]
+id: CBSx:456
+name: Relationship issues with friends
+def: "Relationship issues with friends"
+xref: UMLS:TBD
+is_a: CBSx:213
+
+[Term]
+id: CBSx:426
+name: Making noises or screaming
+def: "Making noises or screaming"
+xref: SNOMEDCT_US:81916006
+xref: UMLS:C0521008
+synonym: "Scream" EXACT []
+is_a: CBSx:243
+
+[Term]
+id: CBSx:406
+name: Auditory agnosia
+def: "Auditory agnosia"
+xref: MSH:D000377
+xref: SNOMEDCT_US:43659006
+xref: UMLS:C0234501
+synonym: "Agnosias, Auditory" EXACT []
+synonym: "Auditory agnosia" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:405
+name: Topographical agnosia 
+def: "Topographical agnosia "
+xref: MSH:D000377
+xref: SNOMEDCT_US:83824009
+xref: UMLS:C0271189
+synonym: "Syndrome, Visual Disorientation" EXACT []
+synonym: "Topographical agnosia" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:438
+name: Shadowing
+def: "Shadowing"
+xref: UMLS:TBD
+is_a: CBSx:257
+
+[Term]
+id: CBSx:431
+name: "Euphoria (euphoric mood, elation, intense excitement)"
+def: "Euphoria (euphoric mood, elation, intense excitement)"
+xref: UMLS:C4553586
+is_a: CBSx:247
+
+[Term]
+id: CBSx:446
+name: Difficulty going to church
+def: "Difficulty going to church"
+xref: UMLS:TBD
+is_a: CBSx:210
+
+[Term]
+id: CBSx:448
+name: Difficulty with visiting friends
+def: "Difficulty with visiting friends"
+xref: UMLS:TBD
+is_a: CBSx:210
+
+[Term]
+id: CBSx:447
+name: Difficulty attending family occasions
+def: "Difficulty attending family occasions"
+xref: UMLS:TBD
+is_a: CBSx:210
+
+[Term]
+id: CBSx:416
+name: Allesthesia 
+def: "Allesthesia "
+xref: MSH:D066190
+xref: UMLS:C3850010
+synonym: "Allesthesia" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:443
+name: Difficulty with writing checks
+def: "Difficulty with writing checks"
+xref: SNOMEDCT_US:300704000
+xref: UMLS:C0577422
+synonym: "Difficulty writing cheques (finding)" EXACT []
+is_a: CBSx:287
+
+[Term]
+id: CBSx:413
+name: Agnosia for temperature
+def: "Agnosia for temperature"
+xref: MSH:D000377
+xref: SNOMEDCT_US:285762000
+xref: UMLS:C0563626
+synonym: "Agnosia for Temperature" EXACT []
+synonym: "Agnosia for temperature" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:453
+name: Parent-child relationship issues
+def: "Parent-child relationship issues"
+xref: UMLS:C1561688
+is_a: CBSx:212
+
+[Term]
+id: CBSx:445
+name: Difficulty going to social clubs
+def: "Difficulty going to social clubs"
+xref: UMLS:TBD
+is_a: CBSx:210
+
+[Term]
+id: CBSx:442
+name: Difficulty with paying bills
+def: "Difficulty with paying bills"
+xref: UMLS:TBD
+is_a: CBSx:287
+
+[Term]
+id: CBSx:422
+name: Aimless movement
+def: "Aimless movement"
+xref: SNOMEDCT_US:247913006
+xref: UMLS:C0424238
+synonym: "Aimless movement (finding)" EXACT []
+is_a: CBSx:241
+
+[Term]
+id: CBSx:419
+name: Spatial agraphia
+def: "Spatial agraphia"
+xref: UMLS:TBD
+is_a: CBSx:218
+
+[Term]
+id: CBSx:401
+name: Declarative memory loss
+def: "Declarative memory loss"
+xref: UMLS:C5539761
+is_a: CBSx:202
+
+[Term]
+id: CBSx:407
+name: Olfactory agnosia 
+def: "Olfactory agnosia "
+xref: MSH:D000377
+xref: SNOMEDCT_US:8480004
+xref: UMLS:C0234503
+synonym: "Agnosia for Smell" EXACT []
+synonym: "Agnosia for smell (finding)" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:402
+name: Procedural memory loss
+def: "Procedural memory loss"
+xref: UMLS:C5539760
+is_a: CBSx:202
+
+[Term]
+id: CBSx:420
+name: Micrographia
+def: "Micrographia"
+xref: HPO:HP:0031908
+xref: SNOMEDCT_US:725122008
+xref: UMLS:C0240341
+synonym: "Micrographia" EXACT []
+synonym: "Micrographia (finding)" EXACT []
+is_a: CBSx:230
+
+[Term]
+id: CBSx:421
+name: Agitated wandering
+def: "Agitated wandering"
+xref: SNOMEDCT_US:300989001
+xref: UMLS:C0577693
+synonym: "Agitated wandering" EXACT []
+is_a: CBSx:241
+
+[Term]
+id: CBSx:428
+name: Swearing
+def: "Swearing"
+xref: SNOMEDCT_US:48285002
+xref: UMLS:C0233730
+synonym: "Swearing (finding)" EXACT []
+is_a: CBSx:243
+
+[Term]
+id: CBSx:427
+name: Disrupt/interfere with meals or any other activities
+def: "Disrupt/interfere with meals or any other activities"
+xref: UMLS:TBD
+is_a: CBSx:243
+
+[Term]
+id: CBSx:455
+name: Relationship issues with siblings
+def: "Relationship issues with siblings"
+xref: UMLS:C2077899
+is_a: CBSx:212
+
+[Term]
+id: CBSx:436
+name: Making accusations
+def: "Making accusations"
+xref: UMLS:TBD
+is_a: CBSx:257
+
+[Term]
+id: CBSx:451
+name: Difficulty with playing sports or games
+def: "Difficulty with playing sports or games"
+xref: SNOMEDCT_US:300772000
+xref: UMLS:C0577486
+synonym: "Difficulty performing play and sports activities (finding)" EXACT []
+is_a: CBSx:211
+
+[Term]
+id: CBSx:430
+name: Inappropriate crying
+def: "Inappropriate crying"
+xref: HPO:HP:0030215
+xref: UMLS:C0860609
+synonym: "Inappropriate crying" EXACT []
+is_a: CBSx:247
+
+[Term]
+id: CBSx:440
+name: Refuse to eat
+def: "Refuse to eat"
+xref: UMLS:C0856050
+is_a: CBSx:265
+
+[Term]
+id: CBSx:404
+name: Visual agnosia
+def: "Visual agnosia"
+xref: HPO:HP:0030222
+xref: MSH:D000377
+xref: SNOMEDCT_US:25762009
+xref: UMLS:C0234502
+synonym: "Visual agnosia" EXACT []
+synonym: "Agnosias, Visual" EXACT []
+synonym: "Visual agnosia (disorder)" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:425
+name: Spitting
+def: "Spitting"
+xref: UMLS:TBD
+is_a: CBSx:243
+
+[Term]
+id: CBSx:450
+name: Difficulty making arts or handcrafts
+def: "Difficulty making arts or handcrafts"
+xref: UMLS:TBD
+is_a: CBSx:211
+
+[Term]
+id: CBSx:449
+name: Difficulty attending holiday or special occasions
+def: "Difficulty attending holiday or special occasions"
+xref: UMLS:TBD
+is_a: CBSx:210
+
+[Term]
+id: CBSx:452
+name: "Difficulty with attending to, understanding, or discussing TV, book, magazine"
+def: "Difficulty with attending to, understanding, or discussing TV, book, magazine"
+xref: UMLS:TBD
+is_a: CBSx:211
+
+[Term]
+id: CBSx:429
+name: Inappropriate laughter
+def: "Inappropriate laughter"
+xref: HPO:HP:0000748
+xref: SNOMEDCT_US:247985007
+xref: UMLS:C0424304
+synonym: "Inappropriate laughter" EXACT []
+synonym: "Inappropriate laughter" EXACT []
+is_a: CBSx:247
+
+[Term]
+id: CBSx:412
+name: Agnosia for pain
+def: "Agnosia for pain"
+xref: MSH:D000377
+xref: SNOMEDCT_US:285761007
+xref: UMLS:C0563625
+synonym: "Agnosia for Pain" EXACT []
+synonym: "Agnosia for pain (finding)" EXACT []
+is_a: CBSx:215
+
+[Term]
+id: CBSx:454
+name: Relationship issues with spouse
+def: "Relationship issues with spouse"
+xref: UMLS:C0496689
+is_a: CBSx:212
+
+[Term]
+id: CBSx:459
+name: Relationship issues with co-workers
+def: "Relationship issues with co-workers"
+xref: UMLS:C0848933
+is_a: CBSx:213
+
+[Term]
+id: CBSx:418
+name: Apraxic agraphia
+def: "Apraxic agraphia"
+xref: UMLS:TBD
+is_a: CBSx:218
+
+[Term]
+id: CBSx:423
+name: Physical or verbal outbursts
+def: "Physical or verbal outbursts"
+xref: UMLS:C4227676
+is_a: CBSx:242
+
+[Term]
+id: CBSx:437
+name: Feeling of being watched or talked about by others
+def: "Feeling of being watched or talked about by others"
+xref: UMLS:TBD
+is_a: CBSx:257
+
+[Term]
+id: CBSx:434
+name: Belief there was a conspiracy against him/her
+def: "Belief there was a conspiracy against him/her"
+xref: UMLS:TBD
+is_a: CBSx:257
+
+[Term]
+id: CBSx:601
+name: Visuospatial agnosia
+def: "Visuospatial agnosia"
+xref: MSH:D000377
+xref: SNOMEDCT_US:285758006
+xref: UMLS:C0563622
+synonym: "Visuospatial Agnosias" EXACT []
+synonym: "Visuospatial agnosia" EXACT []
+is_a: CBSx:404
+
+[Term]
+id: CBSx:602
+name: Alice in the Wonderland Syndrome 
+def: "Alice in the Wonderland Syndrome "
+xref: MSH:D062026
+xref: UMLS:C0854348
+synonym: "Alice in Wonderland Syndrome" EXACT []
+is_a: CBSx:404
+
+[Term]
+id: CBSx:603
+name: Astereognosia
+def: "Astereognosia"
+xref: UMLS:C2830446
+is_a: CBSx:410
+
