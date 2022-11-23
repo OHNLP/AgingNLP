@@ -1,8 +1,3 @@
-./__MACOSX/._used_resources.txt
-./__MACOSX/regexp/._resources_regexp_reagit.txt
-./__MACOSX/regexp/._resources_regexp_reams.txt
-./__MACOSX/regexp/._resources_regexp_rehall.txt
-./__MACOSX/rules/._resources_rules_matchrules.txt
 ./context/contextRule.txt
 ./posthoc_settings.json
 ./regexp/resources_regexp_reagit.txt
