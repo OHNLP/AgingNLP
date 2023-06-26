@@ -1,0 +1,7 @@
+disorient
+disoriented
+disorientated
+not (\S+\s+){0,3}oriented
+disorientation
+impaired orientation
+not oriented

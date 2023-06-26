@@ -1,0 +1,23 @@
+thought form (\S+\s+){0,5}slow
+jumped from topic to topic
+(garbled|slurred|delayed|delays|dysarthric) (\S+\s+){0,3}(speech|speach)
+speech (\S+\s+){0,3}(change.?|nonsensical|slurred|delayed|dysarthric|garbled)
+not (\S+\s+){0,3}(make|making) (\S+\s+){0,3}sense
+disorganized
+paranoid thoughts
+mumble (\S+\s+){0,3}word.?
+impaired (\S+\s+){0,5}speech
+thinking was not normal
+changes in (\S+\s+){0,3}(thinking|speech pattern.?)
+sensation (\S+\s+){0,5}organizing (\S?\s?){0,3}thoughts
+compromised expressive (abilities|ability)
+nonsensical (speech|statement.?)
+mumbling gibberish
+paraphasic error.?
+repeating (phrase.?|word.?)
+trouble with (\S+\s+){0,3}thinking
+impaired short-term (memory|speech)
+(uninforming|uninformed) response.?
+(problem.?|unable|difficulties|difficulty|inability|inabilities|couldn't|hard.?time|not) (\S+\s+){0,4}(speaking|selecting word.?|answering|sequence information|process information|speak|following direction.?|talking|talk|respond|coordinating|form words|naming|respond|comprehending)
+(problem.?|unable|difficulties|difficulty|inability|inabilities|couldn't|hard.?time|not) (\S+\s+){0,3}(following|keeping|putting) (\S?\s?){0,4}(command.?|things straight|thought.?)
+(talking|speaking) (non.?stop|nonsense)

@@ -1,0 +1,14 @@
+mental status change.?
+mental has deteriorated
+change.? (\S+\s+){0,5}mental status
+ams
+change.? (\S+\s+){0,5}mentation
+decrease.? (\S+\s+){0,5}mentation
+altered (\S+\s+){0,5}mentation
+difficulty with mentation
+altered (\S+\s+){0,5}mental status
+mental status (\S+\s+){0,3}off
+deteriorating (\S+\s+){0,3}mental status
+mental status (\S+\s+){0,6}issue
+waning (\S+\s+){0,5}mental status
+waxing (\S+\s+){0,5}mental status
