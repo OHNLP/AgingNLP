@@ -1,0 +1,5 @@
+(finance|financial|bank|credit card|checkbook)
+family helps with (\S+\s+){0,8}(finances|pay the money)
+managing finances
+//UT
+helps with (\S+\s+){0,8}pay the money

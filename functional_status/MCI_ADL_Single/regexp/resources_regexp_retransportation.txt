@@ -1,0 +1,7 @@
+arrival mode ambulance
+transferred via by car
+arrival mode: (\S+\s+){0,5}(private vehicle|ambulance)
+car transfers: (\S+\s+){0,5}(assist needed|Independent)
+drive without assistance
+drives occasionally
+drives

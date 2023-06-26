@@ -1,0 +1,5 @@
+(feeding|prepare.? lunch|cook|cooking|meal|eal|meals)
+(daughter|family) (\S+\s+){0,8}(feeding|prepare.? lunch|cook|cooking|meal|eal)
+meal preparation
+preparing meals
+(foods|meals) (\S+\s+){0,8}(prepares|privided)

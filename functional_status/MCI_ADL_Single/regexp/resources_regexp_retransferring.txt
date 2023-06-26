@@ -1,0 +1,5 @@
+(transfer.?|ambulation|walk|walking|mobility|lifting|transferring|getting out of bed|impaired mobility|getting up)
+unable to walk without assistance
+(transfer.?|ambulation|walk|walking|mobility|lifting|transferring|getting out of bed|mobility:|transfers :|mobility :)
+transfer deficits
+transfers

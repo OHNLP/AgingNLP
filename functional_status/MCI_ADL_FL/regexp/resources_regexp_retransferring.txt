@@ -1,0 +1,21 @@
+(transfer.?|ambulation|walk|walking|mobility|lifting|transferring|getting out of bed|impaired mobility|getting up)
+unable to walk without assistance
+(transfer.?|ambulation|walk|walking|mobility|lifting|transferring|getting out of bed|mobility:|transfers :|mobility :)
+transfer deficits
+transfers
+getting in/out of bed
+mobility (on level surfaces):
+is moving around adequately
+stretcher
+bed mobility independent
+//UT
+gait instability
+in a wheelchair
+ataxia improved
+worsening balance , fog , falls
+ambulates with walker
+get up out of a sitting position
+able to stand up and had decreased stamina
+felt unstable
+difficult to ambulate
+gait

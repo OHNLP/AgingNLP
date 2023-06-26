@@ -1,0 +1,4 @@
+(bathing|bath|showering|shower|bathe|grooming|extremity hygiene)
+(extremity hygiene|grooming|bathing|bath|showering|shower|bathe|Bathing :|hair)
+cut (\S+\s+){0,4}hair
+going to bathroom

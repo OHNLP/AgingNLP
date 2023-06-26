@@ -1,0 +1,6 @@
+house keeping
+cleaning
+housekeeping
+housework cleaning
+helping  (\S+\s+){0,5}housework
+assistance with house work

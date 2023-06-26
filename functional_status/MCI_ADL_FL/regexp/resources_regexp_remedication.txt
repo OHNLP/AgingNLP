@@ -1,0 +1,13 @@
+(medication management|managing medication.?|medication administration|administer.? medications|take meds)
+(daughter|family|wife) (\S+\s+){0,8}(medication management|managing medication.?|medication administration|administer.? medications|take meds)
+reminding (\S+\s+){0,5}take meds
+setting up (\S+\s+){0,5}medications
+//UT
+taking (\S+\s+){0,4}meds as prescribed
+records (his|her) bps at home at least once daily
+(compliance with|taken control of|noncompliant with) (\S+\s+){0,4}(medications|meds|home oxygen)
+misses (his|her) bp med
+(discontinued|refuse) (\S+\s+){0,8}(coumadin|anticoagulation|)
+not taking (his|her) medications
+(misses|missed|manage.+|taking|takes) (\S+\s+){0,5}(medication.+|med.+|hydroxyzine|bp)
+noncompliance with medical recommendations

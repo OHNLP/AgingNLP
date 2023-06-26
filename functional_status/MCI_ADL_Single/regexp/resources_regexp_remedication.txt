@@ -1,0 +1,2 @@
+(medication management|managing medication.?|medication administration|administer.? medications|take meds)
+(daughter|family|wife) (\S+\s+){0,8}(medication management|managing medication.?|medication administration|administer.? medications|take meds)

@@ -1,0 +1,5 @@
+(feeding|prepare.? lunch)
+eating
+//UT
+feed (himself|herself|themselves)
+(eat.?|drink.?) what (he|she) wants
