@@ -41,8 +41,7 @@ Java 1.8
 MedTagger contains a suite of programs that the Mayo Clinic NLP program has developed in 2013. It includes three major components: MedTagger for indexing based on dictionaries, MedTaggerIE for information extraction based on patterns, and MedTaggerML for machine learning-based named entity recognition.
 
 ### Download
-#### Original release: https://github.com/OHNLP/MedTagger/releases
-#### Source code:https://github.com/OHNLP/MedTagger
+#### https://github.com/OHNLP/AgingNLP/tree/master/delirium
 
 
 ### Install
