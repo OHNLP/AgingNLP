@@ -1,0 +1,14 @@
+(not|no|minimally|less|barely|unable to|difficulty|difficult) (\S+\s+){0,3}(describe|response|respond|responding|awake|responsive|communicative|arousable|arouse|following command.?)
+(decreased|reduced|change|fluctuating|altered|loss|change in) (\S+\s+){0,6}(consciousness|conscious|responsiveness)
+increased (\S+\s+){0,3}lethargy
+inability (\S+\s+){0,3}(stay alert|stay awake)
+disconnected
+dizziness
+lethargic
+lethargy
+incoherent
+somnolent
+conversive
+unresponsive
+unresponsiveness
+catatonic
