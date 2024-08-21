@@ -1,6 +1,21 @@
 # AgingNLP
 
-AgingNLP aims to develop aging-related NLP resources including NLP algorithms, knowledge bases, taxonomies, and lexicons for supporting the development and evaluation of various NLP applications. This is part of the collaboration effort between the Rochester Epidemiology Project and the Mayo NLP team. All related NLP resources can be accessed under the OHNLP consortium - aiming to create an interoperable, scalable, and usable NLP ecosystem.
+This repository aims to disseminate NLP resources for aging, gerontology and geriatrics medicine, including NLP algorithms, knowledge bases, taxonomies, and lexicons, to support the development and evaluation of various NLP applications.
+
+This initiative is a collaboration among several leading institutions, including:
+
+- [Rochester Epidemiology Project](https://rochesterproject.org/)
+- [Mayo Clinic Department of AI & Informatics](https://www.mayo.edu/research/departments-divisions/artificial-intelligence-informatics/overview)
+- [Mayo Clinic Department of Quantitative Health Sciences](https://www.mayo.edu/research/departments-divisions/quantitative-health-sciences/overview)
+- [UTHealth Center for Translational AI Excellence and Applications in Medicine](https://sbmi.uth.edu/center-translational-ai/)
+- [John P. and Kathrine G. McGovern Medical School](https://med.uth.edu/)
+- [Memorial Hermann Health System](https://www.memorialhermann.org/)
+- [ENACT NLP Working Group](https://www.enact-network.us/)
+- [OHDSI NLP and Aging Working Group](https://ohdsi.org/workgroups/)
+
+All related NLP resources can be accessed under the OHNLP consortium, which aims to create an interoperable, scalable, and usable NLP ecosystem.
+
+
 
 ## Reference
 
