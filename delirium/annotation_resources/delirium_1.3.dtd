@@ -1,0 +1,107 @@
+<!ENTITY name "Delirium_schema_1_3">
+
+<!ELEMENT AMS ( #PCDATA ) >
+<!ATTLIST AMS CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST AMS certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST AMS status ( history | present ) #IMPLIED "present" >
+<!ATTLIST AMS experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST AMS exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST AMS comment CDATA "" >
+
+<!ELEMENT Delirium ( #PCDATA ) >
+<!ATTLIST Delirium certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Delirium status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Delirium experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Delirium exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Delirium comment CDATA "" >
+
+<!ELEMENT Hallucination ( #PCDATA ) >
+<!ATTLIST Hallucination CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Hallucination certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Hallucination status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Hallucination experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Hallucination exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Hallucination comment CDATA "" >
+
+<!ELEMENT Confusion ( #PCDATA ) >
+<!ATTLIST Confusion CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Confusion certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Confusion status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Confusion experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Confusion exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Confusion comment CDATA "" >
+
+<!ELEMENT Disorient ( #PCDATA ) >
+<!ATTLIST Disorient CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Disorient certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Disorient status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Disorient experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Disorient exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Disorient comment CDATA "" >
+
+<!ELEMENT Reorient ( #PCDATA ) >
+<!ATTLIST Reorient CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Reorient certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Reorient status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Reorient experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Reorient exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Reorient comment CDATA "" >
+
+<!ELEMENT Encephalopathy ( #PCDATA ) >
+<!ATTLIST Encephalopathy CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Encephalopathy certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Encephalopathy status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Encephalopathy experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Encephalopathy exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Encephalopathy comment CDATA "" >
+
+<!ELEMENT Agit ( #PCDATA ) >
+<!ATTLIST Agit CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Agit certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Agit status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Agit experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Agit exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Agit comment CDATA "" >
+
+<!ELEMENT Fluctu ( #PCDATA ) >
+<!ATTLIST Fluctu CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Fluctu certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Fluctu status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Fluctu experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Fluctu exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Fluctu comment CDATA "" >
+
+<!ELEMENT Inattention ( #PCDATA ) >
+<!ATTLIST Inattention CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Inattention certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Inattention status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Inattention experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Inattention exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Inattention comment CDATA "" >
+
+<!ELEMENT Disorganized_thinking ( #PCDATA ) >
+<!ATTLIST Disorganized_thinking CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Disorganized_thinking certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Disorganized_thinking status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Disorganized_thinking experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Disorganized_thinking exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Disorganized_thinking comment CDATA "" >
+
+<!ELEMENT Disconnected ( #PCDATA ) >
+<!ATTLIST Disconnected CAM_criteria ( A | B | C | D | multiple | Indeterminate ) #IMPLIED  >
+<!ATTLIST Disconnected certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST Disconnected status ( history | present ) #IMPLIED "present" >
+<!ATTLIST Disconnected experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST Disconnected exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST Disconnected comment CDATA "" >
+
+<!ELEMENT CAM_Pos ( #PCDATA ) >
+<!ATTLIST CAM_Pos certainty ( confirmed | hypothetical | possible | negated ) #IMPLIED "confirmed"  >
+<!ATTLIST CAM_Pos status ( history | present ) #IMPLIED "present" >
+<!ATTLIST CAM_Pos experiencer ( patient | other ) #IMPLIED "patient" >
+<!ATTLIST CAM_Pos exclusion ( yes | no ) #IMPLIED "no" >
+<!ATTLIST CAM_Pos comment CDATA "" >
+
+<!ELEMENT Definition ( #PCDATA ) >
+<!ATTLIST Definition category ( definitive_delirium | possible_delirium | no_delirium ) #IMPLIED ""  >
+<!ATTLIST Definition comment CDATA "" >

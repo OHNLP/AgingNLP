@@ -1,0 +1,9 @@
+<Delirium_schema_1_3>
+  <TEXT><![CDATA[This paitient has delirium due to agitation, confusion, disorganized thinking.]]></TEXT>
+  <TAGS>
+    <Delirium text="delirium" spans="18~26" certainty="positive" status="present" experiencer="patient" id="DE0" exclusion="" comment=""/>
+    <Agit text="agitation" spans="34~43" certainty="positive" status="present" experiencer="patient" id="AG1" exclusion="" comment=""/>
+    <Confusion text="confusion" spans="45~54" certainty="positive" status="present" experiencer="patient" id="CO2" exclusion="" comment=""/>
+    <Disorganized_thinking text="disorganized" spans="56~68" certainty="positive" status="present" experiencer="patient" id="DI3" exclusion="" comment=""/>
+  </TAGS>
+</Delirium_schema_1_3>
