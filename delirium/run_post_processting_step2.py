@@ -93,7 +93,7 @@ def output_evidence(indir):
                 else:
                     nlp_patient_cam[file_name] = nlp_patient_cam[file_name] + [cam]
 
-    with open("data/summarized_result.csv", "w") as csvfile:
+    with open("./summarized_result.csv", "w") as csvfile:  # store in the current dir
         spamwriter = csv.writer(csvfile, delimiter="|")
         for file_name in nlp_patient_cam:
             nlpcam = cam_original(nlp_patient_cam[file_name])
@@ -154,6 +154,7 @@ def prepare_medtator_annotation(txt_dir, ann_dir):
             nlp_output = read_txt(i)
             combined_xml = create_combined_xml(raw_notes, nlp_output)
             outdir = i.replace(".ann", "").replace("output", "medtator") + ".xml"
+            os.makedirs(os.path.dirname(outdir), exist_ok=True)
             with open(outdir, "w") as text_file:
                 text_file.write(combined_xml)
 
