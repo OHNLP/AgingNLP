@@ -1,12 +1,7 @@
 import csv
-import datetime
 import glob
 import os
-import re
-from datetime import datetime
-from shutil import copyfile
 
-from bs4 import BeautifulSoup
 from lxml import etree
 
 
