@@ -80,6 +80,7 @@ def output_evidence(indir):
 			experiencer = row[8]
 			if 'Positive' in certainty and 'Patient' in experiencer:
 				norm = row[9].lower().split('\"')[1]
+				norm = re.sub(r'\s+', ' ', norm)  # remove extra spaces
 				cam = cam_cp(norm)
 				file_name = row[0]
 				if file_name not in nlp_patient_norm:
