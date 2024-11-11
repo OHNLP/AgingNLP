@@ -1,6 +1,7 @@
 import csv
 import glob
 import os
+import re
 
 from lxml import etree
 
@@ -70,7 +71,6 @@ def cam_original(cam_list):
 def output_evidence(indir):
     nlp_patient_norm, nlp_patient_cam = {}, {}
     nlp_result_txt = glob.glob(indir)
-    print("loading finished")
 
     for i in nlp_result_txt:
         note = read_file_list(i, "\t")
@@ -120,25 +120,34 @@ def create_combined_xml(raw_notes, nlp_output):
 
     # Parse NLP output and create corresponding XML tags
     for line in nlp_output.strip().splitlines():
-        parts = line.split("\t")
-        del parts[1]
-        tag_attributes = {
-            "text": parts[2].split("=")[1].strip('"'),
-            "spans": "{}~{}".format(
-                parts[3].split("=")[1].strip('"'), parts[4].split("=")[1].strip('"')
-            ),
-            "certainty": parts[5].split("=")[1].strip('"').lower(),
-            "status": parts[6].split("=")[1].strip('"').lower(),
-            "experiencer": parts[7].split("=")[1].strip('"').lower(),
-            "id": parts[2].split("=")[1].strip('"')[:2].upper()
-            + str(nlp_output.strip().splitlines().index(line)),
-            # "CAM_criteria": "",
-            "exclusion": "",
-            "comment": "",
-        }
-        etree.SubElement(
-            tags_element, parts[8].split("=")[1].strip('"').capitalize(), tag_attributes
-        )
+        
+            parts = line.split("\t")
+            del parts[1]
+            tag_attributes = {
+                "text": parts[2].split("=")[1].strip('"'),
+                "spans": "{}~{}".format(
+                    parts[3].split("=")[1].strip('"'), parts[4].split("=")[1].strip('"')
+                ),
+                "certainty": parts[5].split("=")[1].strip('"').lower(),
+                "status": parts[6].split("=")[1].strip('"').lower(),
+                "experiencer": parts[7].split("=")[1].strip('"').lower(),
+                "id": parts[2].split("=")[1].strip('"')[:2].upper()
+                + str(nlp_output.strip().splitlines().index(line)),
+                "exclusion": "",
+                "comment": "",
+            }
+
+            # Replace spaces and special characters with underscores
+            tag_name = parts[8].split("=")[1].strip('"').capitalize().replace(" ", "_")
+            tag_name = re.sub(
+                r"[^A-Za-z0-9_]", "_", tag_name
+            )
+
+            if not re.match("^[A-Za-z_][A-Za-z0-9_.-]*$", tag_name):
+                raise ValueError(f"Invalid tag name '{tag_name}' in line: {line}")
+
+            etree.SubElement(tags_element, tag_name, tag_attributes)
+
     rough_string = etree.tostring(root, pretty_print=True, encoding="UTF-8").decode(
         "utf-8"
     )
