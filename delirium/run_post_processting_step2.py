@@ -2,8 +2,7 @@ import csv
 import glob
 import os
 import re
-
-from lxml import etree
+import xml.etree.ElementTree as ET
 
 
 def read_file_list(indir, d):
@@ -109,48 +108,43 @@ def output_evidence(indir):
 
 def create_combined_xml(raw_notes, nlp_output):
     # Create the root element
-    root = etree.Element("Delirium_schema_1_3")
+    root = ET.Element("Delirium_schema_1_3")
 
-    # Add the TEXT section with CDATA
-    text_element = etree.SubElement(root, "TEXT")
-    text_element.text = etree.CDATA(raw_notes)
+    # Add the TEXT section
+    text_element = ET.SubElement(root, "TEXT")
+    text_element.text = raw_notes  # Plain text instead of CDATA
 
     # Add the TAGS section
-    tags_element = etree.SubElement(root, "TAGS")
+    tags_element = ET.SubElement(root, "TAGS")
 
     # Parse NLP output and create corresponding XML tags
     for line in nlp_output.strip().splitlines():
-        
-            parts = line.split("\t")
-            del parts[1]
-            tag_attributes = {
-                "text": parts[2].split("=")[1].strip('"'),
-                "spans": "{}~{}".format(
-                    parts[3].split("=")[1].strip('"'), parts[4].split("=")[1].strip('"')
-                ),
-                "certainty": parts[5].split("=")[1].strip('"').lower(),
-                "status": parts[6].split("=")[1].strip('"').lower(),
-                "experiencer": parts[7].split("=")[1].strip('"').lower(),
-                "id": parts[2].split("=")[1].strip('"')[:2].upper()
-                + str(nlp_output.strip().splitlines().index(line)),
-                "exclusion": "",
-                "comment": "",
-            }
+        parts = line.split("\t")
+        del parts[1]
+        tag_attributes = {
+            "text": parts[2].split("=")[1].strip('"'),
+            "spans": "{}~{}".format(
+                parts[3].split("=")[1].strip('"'), parts[4].split("=")[1].strip('"')
+            ),
+            "certainty": parts[5].split("=")[1].strip('"').lower(),
+            "status": parts[6].split("=")[1].strip('"').lower(),
+            "experiencer": parts[7].split("=")[1].strip('"').lower(),
+            "id": parts[2].split("=")[1].strip('"')[:2].upper()
+            + str(nlp_output.strip().splitlines().index(line)),
+            "exclusion": "",
+            "comment": "",
+        }
 
-            # Replace spaces and special characters with underscores
-            tag_name = parts[8].split("=")[1].strip('"').capitalize().replace(" ", "_")
-            tag_name = re.sub(
-                r"[^A-Za-z0-9_]", "_", tag_name
-            )
+        # Replace spaces and special characters with underscores
+        tag_name = parts[8].split("=")[1].strip('"').capitalize().replace(" ", "_")
+        tag_name = re.sub(r"[^A-Za-z0-9_]", "_", tag_name)
 
-            if not re.match("^[A-Za-z_][A-Za-z0-9_.-]*$", tag_name):
-                raise ValueError(f"Invalid tag name '{tag_name}' in line: {line}")
+        if not re.match("^[A-Za-z_][A-Za-z0-9_.-]*$", tag_name):
+            raise ValueError(f"Invalid tag name '{tag_name}' in line: {line}")
 
-            etree.SubElement(tags_element, tag_name, tag_attributes)
+        ET.SubElement(tags_element, tag_name, tag_attributes)
 
-    rough_string = etree.tostring(root, pretty_print=True, encoding="UTF-8").decode(
-        "utf-8"
-    )
+    rough_string = ET.tostring(root, encoding="utf-8", method="xml").decode("utf-8")
     return rough_string
 
 
