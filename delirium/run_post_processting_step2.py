@@ -2,6 +2,7 @@ import csv
 import glob
 import os
 import re
+
 import xml.etree.ElementTree as ET
 
 
@@ -106,68 +107,77 @@ def output_evidence(indir):
             )
 
 
-def create_combined_xml(raw_notes, nlp_output):
+def create_combined_xml(raw_notes, nlp_output, model_name):
     # Create the root element
-    root = ET.Element("Delirium_schema_1_3")
+    root = ET.Element(model_name)
 
     # Add the TEXT section
     text_element = ET.SubElement(root, "TEXT")
-    text_element.text = raw_notes  # Plain text instead of CDATA
+    text_element.text = f"<![CDATA[{raw_notes}]]>"
 
     # Add the TAGS section
     tags_element = ET.SubElement(root, "TAGS")
 
     # Parse NLP output and create corresponding XML tags
     for line in nlp_output.strip().splitlines():
+
         parts = line.split("\t")
         del parts[1]
         tag_attributes = {
-            "text": parts[2].split("=")[1].strip('"'),
             "spans": "{}~{}".format(
                 parts[3].split("=")[1].strip('"'), parts[4].split("=")[1].strip('"')
             ),
+            "id": parts[2].split("=")[1].strip('"')[:2].upper()
+            + str(nlp_output.strip().splitlines().index(line)),
             "certainty": parts[5].split("=")[1].strip('"').lower(),
             "status": parts[6].split("=")[1].strip('"').lower(),
             "experiencer": parts[7].split("=")[1].strip('"').lower(),
-            "id": parts[2].split("=")[1].strip('"')[:2].upper()
-            + str(nlp_output.strip().splitlines().index(line)),
+            "text": parts[2].split("=")[1].strip('"'),
             "exclusion": "",
             "comment": "",
         }
 
         # Replace spaces and special characters with underscores
         tag_name = parts[8].split("=")[1].strip('"').capitalize().replace(" ", "_")
-        tag_name = re.sub(r"[^A-Za-z0-9_]", "_", tag_name)
+        tag_name = re.sub(
+            r"[^A-Za-z0-9_]", "_", tag_name
+        )
 
         if not re.match("^[A-Za-z_][A-Za-z0-9_.-]*$", tag_name):
             raise ValueError(f"Invalid tag name '{tag_name}' in line: {line}")
 
         ET.SubElement(tags_element, tag_name, tag_attributes)
 
-    rough_string = ET.tostring(root, encoding="utf-8", method="xml").decode("utf-8")
-    return rough_string
+    xml_str = ET.tostring(root, encoding="utf-8", method="xml").decode("utf-8")
+    xml_str = xml_str.replace("&lt;![CDATA[", "<![CDATA[").replace("]]&gt;", "]]>")
+    xml_str = f'<?xml version="1.0" encoding="UTF-8" ?>\n{xml_str}'
+    return xml_str
 
 
-def prepare_medtator_annotation(txt_dir, ann_dir):
+def prepare_medtator_annotation(txt_dir, ann_dir, model_name):
     txt = glob.glob(txt_dir)
     nlp = glob.glob(ann_dir)
     for i in nlp:
         if is_file_size_greater_than_zero(i):
             raw_notes = read_txt(i.replace(".ann", "").replace("output", "input"))
             nlp_output = read_txt(i)
-            combined_xml = create_combined_xml(raw_notes, nlp_output)
+            combined_xml = create_combined_xml(raw_notes, nlp_output, model_name)
             outdir = i.replace(".ann", "").replace("output", "medtator") + ".xml"
             os.makedirs(os.path.dirname(outdir), exist_ok=True)
+            print(outdir)
             with open(outdir, "w") as text_file:
                 text_file.write(combined_xml)
 
 
+
 def main():
     # specify MedTagger output folder director
+    MODEL_NAME = "Delirium_schema_1_3"
     raw_txt_dir = "/delirium/data/input"
     nlp_ann_dir = "/delirium/data/output"
     output_evidence(nlp_ann_dir + "/*.ann")
-    prepare_medtator_annotation(raw_txt_dir + "/*.txt", nlp_ann_dir + "/*.ann")
+    prepare_medtator_annotation(raw_txt_dir + "/*.txt", nlp_ann_dir + "/*.ann", 
+    model_name=MODEL_NAME)
 
 
 if __name__ == "__main__":
