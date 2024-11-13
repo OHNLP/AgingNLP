@@ -138,14 +138,7 @@ def create_combined_xml(raw_notes, nlp_output, model_name):
         }
 
         # Replace spaces and special characters with underscores
-        tag_name = parts[8].split("=")[1].strip('"').capitalize().replace(" ", "_")
-        tag_name = re.sub(
-            r"[^A-Za-z0-9_]", "_", tag_name
-        )
-
-        if not re.match("^[A-Za-z_][A-Za-z0-9_.-]*$", tag_name):
-            raise ValueError(f"Invalid tag name '{tag_name}' in line: {line}")
-
+        tag_name = parts[8].split("=")[1].strip('"')
         ET.SubElement(tags_element, tag_name, tag_attributes)
 
     xml_str = ET.tostring(root, encoding="utf-8", method="xml").decode("utf-8")
