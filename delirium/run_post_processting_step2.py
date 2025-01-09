@@ -2,7 +2,6 @@ import csv
 import glob
 import os
 import re
-
 import xml.etree.ElementTree as ET
 
 
@@ -69,8 +68,9 @@ def cam_original(cam_list):
 
 
 def output_evidence(indir):
-    nlp_patient_norm, nlp_patient_cam = {}, {}
+    nlp_patient_norm, nlp_patient_txt, nlp_patient_cam = {}, {}, {}
     nlp_result_txt = glob.glob(indir)
+    print("loading finished")
 
     for i in nlp_result_txt:
         note = read_file_list(i, "\t")
@@ -81,26 +81,38 @@ def output_evidence(indir):
             status = row[7]
             experiencer = row[8]
             if "Positive" in certainty and "Patient" in experiencer:
+                text = row[3].lower().split('"')[1]
                 norm = row[9].lower().split('"')[1]
                 cam = cam_cp(norm)
                 file_name = row[0]
-                if file_name not in nlp_patient_norm:
-                    nlp_patient_norm[file_name] = [norm]
-                else:
-                    nlp_patient_norm[file_name] = nlp_patient_norm[file_name] + [norm]
-                if file_name not in nlp_patient_cam:
-                    nlp_patient_cam[file_name] = [cam]
-                else:
-                    nlp_patient_cam[file_name] = nlp_patient_cam[file_name] + [cam]
 
-    with open("./summarized_result.csv", "w") as csvfile:  # store in the current dir
-        spamwriter = csv.writer(csvfile, delimiter="|")
+                # Append data for each file
+                if file_name not in nlp_patient_norm:
+                    nlp_patient_norm[file_name] = []
+                nlp_patient_norm[file_name].append(norm)
+
+                if file_name not in nlp_patient_txt:
+                    nlp_patient_txt[file_name] = []
+                nlp_patient_txt[file_name].append(text)
+
+                if file_name not in nlp_patient_cam:
+                    nlp_patient_cam[file_name] = []
+                nlp_patient_cam[file_name].append(cam)
+
+    with open("./summarized_result.csv", "w", newline="") as csvfile:
+        spamwriter = csv.writer(csvfile, delimiter=",")
+        # Add column names
+        spamwriter.writerow(
+            ["FileName", "Tags", "Texts", "CAM_Criteria", "Delirium Status"]
+        )
+
         for file_name in nlp_patient_cam:
             nlpcam = cam_original(nlp_patient_cam[file_name])
             spamwriter.writerow(
                 [
                     file_name,
                     nlp_patient_norm[file_name],
+                    nlp_patient_txt[file_name],
                     nlp_patient_cam[file_name],
                     nlpcam,
                 ]
@@ -162,15 +174,15 @@ def prepare_medtator_annotation(txt_dir, ann_dir, model_name):
                 text_file.write(combined_xml)
 
 
-
 def main():
     # specify MedTagger output folder director
     MODEL_NAME = "Delirium_schema_1_3"
     raw_txt_dir = "/delirium/data/input"
     nlp_ann_dir = "/delirium/data/output"
     output_evidence(nlp_ann_dir + "/*.ann")
-    prepare_medtator_annotation(raw_txt_dir + "/*.txt", nlp_ann_dir + "/*.ann", 
-    model_name=MODEL_NAME)
+    prepare_medtator_annotation(
+        raw_txt_dir + "/*.txt", nlp_ann_dir + "/*.ann", model_name=MODEL_NAME
+    )
 
 
 if __name__ == "__main__":
