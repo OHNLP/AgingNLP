@@ -18,7 +18,7 @@ We developed two NLP algorithms (NLP-CAM and NLP-M-CAM) to identify patients wit
 | --- | --- | --- | --- | --- |
 | Agit | agitated, agitation | CAM D | Yes | No |
 | AMS  | mental status change | CAM D |  | No |
-| Confusion  | confusion, confused | CAM C or CAM D | Yes | No |
+| Confusion  | confusion, confused | CAM A or CAM C | Yes | No |
 | Delirium | delirious, delirium | Delirium equivalent |  | Yes |
 | Disconnected  | disconnected | CAM C |  | No |
 | Disorganized_thinking  | jumped from topic to topic, paranoid thoughts | CAM C |  | No |
