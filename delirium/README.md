@@ -24,7 +24,7 @@ We developed two NLP algorithms (NLP-CAM and NLP-M-CAM) to identify patients wit
 | Disorganized_thinking  | jumped from topic to topic, paranoid thoughts | CAM C |  | No |
 | Disorient  | impaired orientation | CAM C |  | No |
 | Drowsy | drowsy | CAM D |  | No |
-| Encephalopathy  | encephalopathy, leukoencephalopathy,  | CAM D |  | Yes |
+| Encephalopathy  | encephalopathy, leukoencephalopathy,  | CAM D/Delirium equivalent |  | Yes |
 | Fluctuation | fluctuation, night and day different | CAM A |  | No |
 | Hallucination  | hallucination, seeing things | CAM C  |  | No |
 | Inattention  | inattentive, not paying attention | CAM B |  | No |
