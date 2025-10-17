@@ -16,15 +16,15 @@ We developed two NLP algorithms (NLP-CAM and NLP-M-CAM) to identify patients wit
 
 | Delirium Concepts     | Example Terms                                 | Primary Indication of CAM | Require Additional Context | Potential Direct Indication of Delirium Status |
 | --------------------- | --------------------------------------------- | ------------------------- | -------------------------- | ---------------------------------------------- |
-| Agit                  | agitated, agitation                           | CAM D                     | Yes                        | No                                             |
-| AMS                   | mental status change                          | CAM D                     |                            | No                                             |
-| Confusion             | confusion, confused                           | CAM A or CAM C            | Yes                        | No                                             |
-| Delirium              | delirious, delirium                           | Delirium equivalent       |                            | Yes                                            |
+| Agitation             | agitated, agitation                           | CAM D                     | Yes                        | No                                             |
+| AMS                   | mental status change                          | CAM A                     |                            | No                                             |
+| Confusion             | confusion, confused                           | CAM C                     | Yes                        | No                                             |
+| Delirium              | delirious, delirium                           | Delirium                  |                            | Yes                                            |
 | Disconnected          | disconnected                                  | CAM C                     |                            | No                                             |
 | Disorganized_thinking | jumped from topic to topic, paranoid thoughts | CAM C                     |                            | No                                             |
 | Disorient             | impaired orientation                          | CAM C                     |                            | No                                             |
 | Drowsy                | drowsy                                        | CAM D                     |                            | No                                             |
-| Encephalopathy        | encephalopathy, leukoencephalopathy,          | CAM D/Delirium equivalent |                            | Yes                                            |
+| Encephalopathy        | encephalopathy, leukoencephalopathy,          | Delirium                  |                            | Yes                                            |
 | Fluctuation           | fluctuation, night and day different          | CAM A                     |                            | No                                             |
 | Hallucination         | hallucination, seeing things                  | CAM C                     |                            | No                                             |
 | Inattention           | inattentive, not paying attention             | CAM B                     |                            | No                                             |
