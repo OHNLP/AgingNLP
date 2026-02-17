@@ -1,0 +1,130 @@
+##########################################################################
+# Copyright: (c) 2013   Mayo Foundation for Medical Education and 
+# Research (MFMER). All rights reserved. MAYO, MAYO CLINIC, and the
+# triple-shield Mayo logo are trademarks and service marks of MFMER.
+#
+# Except as contained in the copyright notice above, or as used to identify 
+# MFMER as the author of this software, the trade names, trademarks, service
+# marks, or product names of the copyright holder shall not be used in
+# advertising, promotion or otherwise in connection with this software without
+# prior written authorization of the copyright holder.
+# 
+# Licensed under the Apache License, Version 2.0 (the "License");
+# you may not use this file except in compliance with the License.
+# You may obtain a copy of the License at
+# 
+# http://www.apache.org/licenses/LICENSE-2.0 
+# 
+# Unless required by applicable law or agreed to in writing, software
+# distributed under the License is distributed on an "AS IS" BASIS,
+# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+# See the License for the specific language governing permissions and 
+# limitations under the License. 
+################################################################################
+# Adopt SecTag
+20100	20100	Revision_History
+20101	20101	Referral_Source
+20102	20102	Chief_Complaint___Reason_for_Visit
+20103	20103	History_of_Present_Illness
+20104	20104	Current_Medications
+20105	20105	Allergies
+20106	20106	System_Reviews
+20107	20107	Past_Medical___Surgical_History
+20108	20108	Social_History
+20109	20109	Family_History
+20110	20110	Vital_Signs
+20111	20111	Physical_Examination
+20112	20112	Impression___Report___Plan
+20113	20113	Diagnosis
+20114	20114	Administrative
+20115	20115	Special_Instructions
+20116	20116	Advance_Directives
+20117	20117	Service_Contributors
+20118	20118	Immunizations
+20119	20119	Admission_Findings_Test_Results
+20120	20120	Problem_Oriented_Hosp__Course__I_O_P_
+20121	20121	Final_Physical_Examination
+20122	20122	Adverse_Reactions
+20123	20123	Diet___Nutrition
+20124	20124	Discharge_Condition
+20125	20125	Condition_at_Discharge
+20126	20126	Ongoing_Care_Orders
+20127	20127	Admission_Physical_Exam
+20128	20128	Ongoing_Care
+20129	20129	Follow_Up_Agreements
+20130	20130	PFH_and_CVI_Dates
+20132	20132	Findings_Procedures_Surgeries
+20133	20133	Admission_Medications
+20134	20134	Discharge_Activity
+20135	20135	Anticipated_Problems_and_Suggested_Interventions
+20136	20136	Post_op_services_related_to_Surgical_Procedure
+20137	20137	EMTALA_Statement
+20138	20138	Patient_Education
+20139	20139	Principle_Diagnosis
+20140	20140	Secondary_Diagnoses
+20141	20141	Final_Pathology_Diagnosis
+20142	20142	Supervisor_Present
+20143	20143	Pre_Procedure_Information
+20144	20144	Procedure_Information
+20145	20145	Subjective
+20146	20146	Labs
+20147	20147	Wound
+20148	20148	Informed_Consent
+20149	20149	Post_Procedure_Film
+20150	20150	Patient_Disposition
+20151	20151	Specimens_Removed
+20152	20152	Findings
+20153	20153	Primary_Surgeon_s_
+20154	20154	Assistants
+20155	20155	Complications
+20156	20156	Drains
+20157	20157	Anesthesia
+20158	20158	Fluids
+20159	20159	Estimated_Blood_Loss
+20160	20160	Prescriptions
+20161	20161	Follow_Up_Letter
+20162	20162	May_Return_to_Work
+20163	20163	Instructions_to_Include
+20164	20164	Procedure_Performed_and_Description
+20165	20165	Post_Procedure_Diagnosis
+20166	20166	Reason_for_Transfer
+20167	20167	Condition_at_Transfer
+20168	20168	Summary_of_Care
+20169	20169	Physician_Attestation
+20170	20170	Brief_Hospital_Course
+20172	20172	Condition_at_Discharge__v2_
+20173	20173	Discharge_Disposition__v2_
+20174	20174	Contact_Information
+20175	20175	Service_Contributor__v2_
+20176	20176	Instructions_for_continuing_care
+20178	20178	Consults
+20179	20179	Radiological_Review
+20180	20180	unknown
+20181	20181	unknown
+20182	20182	unknown
+20183	20183	unknown
+20184	20184	unknown
+20185	20185	unknown
+20186	20186	unknown
+20187	20187	DC_Instruct
+113290	113290	HISTORY/CLINICAL_HISTORY
+187823	187823	FINDINGS/MEASUREMENTS
+187831	187831	RECOMMENDATIONS
+187856	187856	INDICATIONS/HISTORY
+188342	188342	COMPARISON/CONTRAST/COMPARISON_STUDY
+190058	190058	IMPRESSIONS/RESULTS
+551077	551077	COMMENTS/ADDENDUM
+551085	551085	CLINICAL_INFORMATION/REFERRING_PHYSICIAN
+551093	551093	COMPLICATIONS
+551101	551101	CONCLUSIONS/INTERPRETATION
+551119	551119	EXAM/TECHNIQUE/PROTOCOL/PROCEDURE
+551127	551127	SUMMARY/ASSESSMENT
+642934	642934	INFORMED_CONSENT
+99998	99998	DOCUMENT_HEADER
+99999	99999	FULL_DOCUMENT_TEXT
+R20102	R20102	INDICATIONS_FOR_SONOGRAPHY
+R20112	R20112	OBSERVATIONS
+R20113	R20113	DX
+R20132	R20132	FINDINGS
+R20181	R20181	EXAM_INFORMATION
+R20182	R20182	ELECTRONICALLY_SIGNED_BY

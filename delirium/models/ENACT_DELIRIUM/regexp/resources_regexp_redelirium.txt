@@ -1,0 +1,8 @@
+delirium
+delirious
+delerium
+delirium.?
+.?delirium.?
+delirium.*?[-–—]\s*1
+#[1-9]\d? delirium
+

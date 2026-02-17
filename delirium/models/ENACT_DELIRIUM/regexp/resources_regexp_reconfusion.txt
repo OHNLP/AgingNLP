@@ -1,0 +1,5 @@
+confusion
+confused
+confusional
+confusing
+Confusion.*?[-–—]\s*1
