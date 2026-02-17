@@ -31,19 +31,19 @@ def is_file_size_greater_than_zero(file_path):
 
 
 def cam_cp(cp):
-    cp = cp.strip()
-    cam = ""
-    if cp in ["encephalopathy", "agit", "ams", "fluctu", "confusion"]:
-        cam = "cam_a"
-    elif cp in ["inattention"]:
-        cam = "cam_b"
-    elif cp in ["hallucination", "disorganized_thinking", "disorient"]:
-        cam = "cam_c"
-    elif cp in ["disconnected"]:
-        cam = "cam_d"
-    elif cp == "delirium":
-        cam = "delirium"
-    return cam
+	cp = cp.strip()
+	cam = ''
+	if cp in ['encephalopathy','ams','fluctu']:
+		cam = 'cam_a'
+	elif cp in ['inattention']:
+		cam = 'cam_b'
+	elif cp in ['confusion', 'disconnected', 'hallucination', 'disorganized_thinking', 'disorient', 'reorient']:
+		cam = 'cam_c'
+	elif cp in ['drowsy', 'agit']:
+		cam = 'cam_d'
+	elif cp == 'delirium' or 'encephalopathy':
+		cam = 'delirium'
+	return cam
 
 
 def cam_original(cam_list):
