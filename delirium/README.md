@@ -1,4 +1,4 @@
-# AgingNLP - Delirium NLP Algorithm
+# NLP-CAM - Delirium NLP Algorithm
 
 We developed two NLP algorithms (NLP-CAM and NLP-M-CAM) to identify patients with delirium from clinical notes.
 
